@@ -10,30 +10,33 @@
 </head>
 
 
-<body id="body" class="relative max-w-screen overflow-x-hidden h-full bg-gray-900 flex flex-col items-center pt-8 p-4 lg:p-10 gap-4 lg:gap-10 justify-center w-full">
-	<h4 id="number"
-		class="animate__animated animate__flash absolute top-1 left-4 lg:left-10 font-medium opacity-60 text-white text-base">#12</h4>
+<body id="body" class="relative max-w-screen overflow-x-hidden h-full bg-gray-900 flex flex-col items-center pt-2 p-4 gap-4 justify-center w-full">
+	<div class="flex flex-row w-full items-center justify-between">
+	<h4 id="number" class="animate__animated animate__flash font-medium opacity-60 text-white text-base">#12</h4>
+	<h4 id="rounde" class="animate__animated animate__flash font-medium opacity-60 text-white text-base">#12</h4>
+	</div>
+	
 	<div id="easy"
 		class="transition ease-in-out animate__animated animate__fadeIn relative flex flex-col items-center justify-center rounded-xl h-full w-full bg-yellow-900">
 		<span class="absolute top-0 right-0 text-xl font-semibold text-ink-muted">
 			<i class="fas fa-cloud"></i>
 		</span>
-		<h3 id="hint" class="text-center text-base lg:text-lg font-medium tracking-widest">Has "NN"</h3>
+		<h3 id="hint" class="text-center text-base lg:text-lg font-medium tracking-widest">Hint</h3>
 
-		<h2 id="question" class="text-center text-xl font-bold tracking-wider">Hint</h2>
-		<p id="answer" class="text-center absolute bottom-2 font-bold opacity-50 rotate-180">Ans</p>
+		<h2 id="riddle" class="text-center text-xl font-bold tracking-wider">Riddle</h2>
+		<p id="answer" class="text-center absolute bottom-2 font-bold opacity-50 rotate-180"></p>
 	</div>
 	<div id="normal"
 		class="animate__animated animate__fadeIn  relative flex flex-col items-center justify-center rounded-xl h-full w-full bg-red-900">
-		<h3 id="hint" class="text-center lg:text-lg font-medium tracking-widest">Has "NN"</h3>
-		<h2 id="question" class="text-center text-lg lg:text-xl font-bold tracking-wider">Hint</h2>
-		<p id="answer" class="text-center absolute bottom-2 font-bold opacity-50 rotate-180">Ans</p>
+		<h3 id="hint" class="text-center lg:text-lg font-medium tracking-widest">Hint"</h3>
+		<h2 id="riddle" class="text-center text-lg lg:text-xl font-bold tracking-wider">Riddle</h2>
+		<p id="answer" class="text-center absolute bottom-2 font-bold opacity-50 rotate-180">answer</p>
 	</div>
 	<div id="hard"
 		class="animate__animated animate__fadeIn relative flex flex-col items-center justify-center rounded-xl h-full w-full bg-purple-900">
-		<h3 id="hint" class="text-center lg:text-lg font-medium tracking-widest">Has "NN"</h3>
-		<h2 id="question" class="text-center text-lg lg:text-xl font-bold tracking-wider">Contains "PL"</h2>
-		<p id="answer" class="text-center absolute bottom-2 font-bold opacity-50 rotate-180">Ans</p>
+		<h3 id="hint" class="text-center lg:text-lg font-medium tracking-widest">Hint"</h3>
+		<h2 id="riddle" class="text-center text-lg lg:text-xl font-bold tracking-wider">Riddle</h2>
+		<p id="answer" class="text-center absolute bottom-2 font-bold opacity-50 rotate-180">answer</p>
 	</div>
 
 	<div id="btns"

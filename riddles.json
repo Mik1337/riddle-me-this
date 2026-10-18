@@ -1,62 +1,62 @@
 [
   {
-    "easy": { "hint": "Has \"NN\"", "question": "A long yellow fruit", "answer": "banana" },
-    "normal": { "hint": "Starts with \"P\"", "question": "Tropical fruit with a spiky crown", "answer": "pineapple" },
-    "hard": { "hint": "Ends with \"OT\"", "question": "Small orange stone fruit", "answer": "apricot" }
+    "easy": { "hint": "Has \"NN\"", "riddle": "A long yellow fruit", "answer": "banana" },
+    "normal": { "hint": "Starts with \"P\"", "riddle": "Tropical fruit with a spiky crown", "answer": "pineapple" },
+    "hard": { "hint": "Ends with \"OT\"", "riddle": "Small orange stone fruit", "answer": "apricot" }
   },
   {
-    "easy": { "hint": "Has \"OO\"", "question": "Marsupial that hops around Australia", "answer": "kangaroo" },
-    "normal": { "hint": "Starts with \"G\"", "question": "The tallest land animal", "answer": "giraffe" },
-    "hard": { "hint": "Contains \"PL\"", "question": "Egg-laying mammal with a duck-like bill", "answer": "platypus" }
+    "easy": { "hint": "Has \"OO\"", "riddle": "Marsupial that hops around Australia", "answer": "kangaroo" },
+    "normal": { "hint": "Starts with \"G\"", "riddle": "The tallest land animal", "answer": "giraffe" },
+    "hard": { "hint": "Contains \"PL\"", "riddle": "Egg-laying mammal with a duck-like bill", "answer": "platypus" }
   },
   {
-    "easy": { "hint": "Has \"EE\"", "question": "The glowing part of a computer you stare at", "answer": "screen" },
-    "normal": { "hint": "Starts with \"K\"", "question": "Board of keys you type on", "answer": "keyboard" },
-    "hard": { "hint": "Ends with \"ER\"", "question": "Machine that runs programs", "answer": "computer" }
+    "easy": { "hint": "Has \"EE\"", "riddle": "The glowing part of a computer you stare at", "answer": "screen" },
+    "normal": { "hint": "Starts with \"K\"", "riddle": "Board of keys you type on", "answer": "keyboard" },
+    "hard": { "hint": "Ends with \"ER\"", "riddle": "Machine that runs programs", "answer": "computer" }
   },
   {
-    "easy": { "hint": "Starts with \"R\"", "question": "Color of a fire truck", "answer": "red" },
-    "normal": { "hint": "Has \"UR\"", "question": "Color between blue and red", "answer": "purple" },
-    "hard": { "hint": "Ends with \"SE\"", "question": "Blue-green color named after a gemstone", "answer": "turquoise" }
+    "easy": { "hint": "Starts with \"R\"", "riddle": "Color of a fire truck", "answer": "red" },
+    "normal": { "hint": "Has \"UR\"", "riddle": "Color between blue and red", "answer": "purple" },
+    "hard": { "hint": "Ends with \"SE\"", "riddle": "Blue-green color named after a gemstone", "answer": "turquoise" }
   },
   {
-    "easy": { "hint": "Starts with \"T\"", "question": "Tall plant with a trunk", "answer": "tree" },
-    "normal": { "hint": "Has \"LL\"", "question": "Low land between hills", "answer": "valley" },
-    "hard": { "hint": "Ends with \"ER\"", "question": "Slow-moving river of ice", "answer": "glacier" }
+    "easy": { "hint": "Starts with \"T\"", "riddle": "Tall plant with a trunk", "answer": "tree" },
+    "normal": { "hint": "Has \"LL\"", "riddle": "Low land between hills", "answer": "valley" },
+    "hard": { "hint": "Ends with \"ER\"", "riddle": "Slow-moving river of ice", "answer": "glacier" }
   },
   {
-    "easy": { "hint": "Has \"ZZ\"", "question": "Cheesy Italian pie", "answer": "pizza" },
-    "normal": { "hint": "Starts with \"S\"", "question": "Japanese rice and fish rolls", "answer": "sushi" },
-    "hard": { "hint": "Contains \"GN\"", "question": "Italian potato dumplings", "answer": "gnocchi" }
+    "easy": { "hint": "Has \"ZZ\"", "riddle": "Cheesy Italian pie", "answer": "pizza" },
+    "normal": { "hint": "Starts with \"S\"", "riddle": "Japanese rice and fish rolls", "answer": "sushi" },
+    "hard": { "hint": "Contains \"GN\"", "riddle": "Italian potato dumplings", "answer": "gnocchi" }
   },
   {
-    "easy": { "hint": "Starts with \"M\"", "question": "Earth's natural satellite", "answer": "moon" },
-    "normal": { "hint": "Has \"AT\"", "question": "Planet famous for its rings", "answer": "saturn" },
-    "hard": { "hint": "Ends with \"Y\"", "question": "Huge system of stars — the Milky Way is one", "answer": "galaxy" }
+    "easy": { "hint": "Starts with \"M\"", "riddle": "Earth's natural satellite", "answer": "moon" },
+    "normal": { "hint": "Has \"AT\"", "riddle": "Planet famous for its rings", "answer": "saturn" },
+    "hard": { "hint": "Ends with \"Y\"", "riddle": "Huge system of stars — the Milky Way is one", "answer": "galaxy" }
   },
   {
-    "easy": { "hint": "Starts with \"D\"", "question": "Person who treats the sick", "answer": "doctor" },
-    "normal": { "hint": "Has \"CH\"", "question": "Person who cooks in a restaurant", "answer": "chef" },
-    "hard": { "hint": "Contains \"EO\"", "question": "Scientist who studies rocks", "answer": "geologist" }
+    "easy": { "hint": "Starts with \"D\"", "riddle": "Person who treats the sick", "answer": "doctor" },
+    "normal": { "hint": "Has \"CH\"", "riddle": "Person who cooks in a restaurant", "answer": "chef" },
+    "hard": { "hint": "Contains \"EO\"", "riddle": "Scientist who studies rocks", "answer": "geologist" }
   },
   {
-    "easy": { "hint": "Has \"UM\"", "question": "Instrument you hit with sticks", "answer": "drum" },
-    "normal": { "hint": "Starts with \"V\"", "question": "String instrument bigger than a violin", "answer": "viola" },
-    "hard": { "hint": "Ends with \"NO\"", "question": "Instrument with 88 black and white keys", "answer": "piano" }
+    "easy": { "hint": "Has \"UM\"", "riddle": "Instrument you hit with sticks", "answer": "drum" },
+    "normal": { "hint": "Starts with \"V\"", "riddle": "String instrument bigger than a violin", "answer": "viola" },
+    "hard": { "hint": "Ends with \"NO\"", "riddle": "Instrument with 88 black and white keys", "answer": "piano" }
   },
   {
-    "easy": { "hint": "Has \"LL\"", "question": "Round object kicked in a game", "answer": "ball" },
-    "normal": { "hint": "Starts with \"T\"", "question": "Racket sport played at Wimbledon", "answer": "tennis" },
-    "hard": { "hint": "Ends with \"NG\"", "question": "Combat sport fought with gloves", "answer": "boxing" }
+    "easy": { "hint": "Has \"LL\"", "riddle": "Round object kicked in a game", "answer": "ball" },
+    "normal": { "hint": "Starts with \"T\"", "riddle": "Racket sport played at Wimbledon", "answer": "tennis" },
+    "hard": { "hint": "Ends with \"NG\"", "riddle": "Combat sport fought with gloves", "answer": "boxing" }
   },
   {
-    "easy": { "hint": "Starts with \"E\"", "question": "Land of the pyramids", "answer": "egypt" },
-    "normal": { "hint": "Starts with \"A\"", "question": "Country called the Land Down Under", "answer": "australia" },
-    "hard": { "hint": "Ends with \"AL\"", "question": "Country on the Iberian Peninsula", "answer": "portugal" }
+    "easy": { "hint": "Starts with \"E\"", "riddle": "Land of the pyramids", "answer": "egypt" },
+    "normal": { "hint": "Starts with \"A\"", "riddle": "Country called the Land Down Under", "answer": "australia" },
+    "hard": { "hint": "Ends with \"AL\"", "riddle": "Country on the Iberian Peninsula", "answer": "portugal" }
   },
   {
-    "easy": { "hint": "Starts with \"W\"", "question": "H2O in liquid form", "answer": "water" },
-    "normal": { "hint": "Has \"XY\"", "question": "Gas we breathe to survive", "answer": "oxygen" },
-    "hard": { "hint": "Ends with \"UM\"", "question": "Light gas that fills party balloons", "answer": "helium" }
+    "easy": { "hint": "Starts with \"W\"", "riddle": "H2O in liquid form", "answer": "water" },
+    "normal": { "hint": "Has \"XY\"", "riddle": "Gas we breathe to survive", "answer": "oxygen" },
+    "hard": { "hint": "Ends with \"UM\"", "riddle": "Light gas that fills party balloons", "answer": "helium" }
   }
 ]

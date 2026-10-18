@@ -1,8 +1,11 @@
 import riddles from "./riddles.json" with {type: 'json'};
 
+let roundes = 1;
+
 const modes = ["easy", "normal", "hard"];
 
 const elNumber = document.getElementById("number");
+const elRounds = document.getElementById("rounde");
 
 const discarded = [];
 
@@ -30,9 +33,12 @@ function RiddleMeThis(shuffle = false) {
 		}
 		el.style.setProperty('--animate-duration', `${350 * (index + 1 * 4)}ms`);
 		el.querySelector("#hint").innerText = riddle[mode].hint;
-		el.querySelector("#question").innerText = riddle[mode].question;
+		el.querySelector("#riddle").innerText = riddle[mode].riddle;
 		el.querySelector("#answer").innerText = riddle[mode].answer;
 	});
+
+	elRounds.innerHTML = `Round ${roundes}`;
+	roundes++;
 }
 
 
@@ -49,4 +55,7 @@ modes.forEach(mode => {
 });
 elNumber.addEventListener('animationend', () =>{
 	elNumber.classList.remove("animate__flash");
+})
+elRound.addEventListener('animationend', () =>{
+	elRound.classList.remove("animate__flash");
 })
