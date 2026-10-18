@@ -1,502 +1,502 @@
 [
-  {
-    "easy": { "hint": "Has \"AI\"", "riddle": "I carry my house on my back and leave a silver road behind me.", "answer": "snail" },
-    "normal": { "hint": "Has \"CT\"", "riddle": "I have eight arms and three hearts, yet I cannot hug you.", "answer": "octopus" },
-    "hard": { "hint": "Ends with \"ON\"", "riddle": "My eyes look two ways at once, and my skin lies about my mood.", "answer": "chameleon" }
-  },
-  {
-    "easy": { "hint": "Has \"GU\"", "riddle": "I wear a tuxedo to the coldest ball and swim instead of fly.", "answer": "penguin" },
-    "normal": { "hint": "Has \"DG\"", "riddle": "I am a pincushion with a nose, and I roll into a ball when afraid.", "answer": "hedgehog" },
-    "hard": { "hint": "Contains \"CU\"", "riddle": "I wear a thousand needles but cannot sew, and I warn before I strike.", "answer": "porcupine" }
-  },
-  {
-    "easy": { "hint": "Has \"PH\"", "riddle": "I leap for joy, breathe through a hole, and speak in clicks.", "answer": "dolphin" },
-    "normal": { "hint": "Ends with \"GO\"", "riddle": "I am pink because of what I eat, and I stand on one leg to keep warm.", "answer": "flamingo" },
-    "hard": { "hint": "Contains \"RP\"", "riddle": "I wear armor, carry a curved sword, and my hug is a warning.", "answer": "scorpion" }
-  },
-  {
-    "easy": { "hint": "Has \"TT\"", "riddle": "I was a caterpillar before I became a pair of painted wings.", "answer": "butterfly" },
-    "normal": { "hint": "Contains \"CO\"", "riddle": "I smile with a mouth that cannot close, and I weep without sorrow.", "answer": "crocodile" },
-    "hard": { "hint": "Has \"LL\"", "riddle": "I have no brain, no heart, and no bones, yet my touch can sting.", "answer": "jellyfish" }
-  },
-  {
-    "easy": { "hint": "Has \"QU\"", "riddle": "I bury my food and forget where, planting forests by accident.", "answer": "squirrel" },
-    "normal": { "hint": "Ends with \"SE\"", "riddle": "I carry a roof over my head and win races by never stopping.", "answer": "tortoise" },
-    "hard": { "hint": "Contains \"LA\"", "riddle": "I live in damp places and can regrow what I lose.", "answer": "salamander" }
-  },
-  {
-    "easy": { "hint": "Has \"MO\"", "riddle": "I am yellow, sour, and I make your face fold in on itself.", "answer": "lemon" },
-    "normal": { "hint": "Has \"SH\"", "riddle": "I appear overnight after rain, and some of me are deadly.", "answer": "mushroom" },
-    "hard": { "hint": "Ends with \"AR\"", "riddle": "I am sour but not a fruit, and I make pickles possible.", "answer": "vinegar" }
-  },
-  {
-    "easy": { "hint": "Has \"PC\"", "riddle": "I am corn that cannot wait, so I burst when I get hot.", "answer": "popcorn" },
-    "normal": { "hint": "Has \"TZ\"", "riddle": "I am a knot you can eat, salted and twisted.", "answer": "pretzel" },
-    "hard": { "hint": "Has \"NN\"", "riddle": "I am bark ground into powder, and I make sweet things taste warm.", "answer": "cinnamon" }
-  },
-  {
-    "easy": { "hint": "Ends with \"EY\"", "riddle": "I am made by insects, thick and golden, and I never spoil.", "answer": "honey" },
-    "normal": { "hint": "Has \"GH\"", "riddle": "I am a pile of thin ropes that you twirl, not tie.", "answer": "spaghetti" },
-    "hard": { "hint": "Contains \"CC\"", "riddle": "I am a green tree you can eat, and I grow in a tight bouquet.", "answer": "broccoli" }
-  },
-  {
-    "easy": { "hint": "Has \"CA\"", "riddle": "I am green on the inside, wear a leathery coat, and have a stone for a heart.", "answer": "avocado" },
-    "normal": { "hint": "Contains \"CO\"", "riddle": "I am made from beans that are not coffee, and I melt at the touch.", "answer": "chocolate" },
-    "hard": { "hint": "Ends with \"RD\"", "riddle": "I am a seed ground into a paste, yellow and sharp, and I can clear your sinuses.", "answer": "mustard" }
-  },
-  {
-    "easy": { "hint": "Has \"NC\"", "riddle": "I am flat, round, and flipped in the morning; syrup is my favorite coat.", "answer": "pancake" },
-    "normal": { "hint": "Contains \"CO\"", "riddle": "I am hard on the outside, white on the inside, and I carry my own drink.", "answer": "coconut" },
-    "hard": { "hint": "Has \"MP\"", "riddle": "I am a parcel of dough with a secret inside, dropped into boiling water.", "answer": "dumpling" }
-  },
-  {
-    "easy": { "hint": "Has \"NB\"", "riddle": "I need both sun and rain to exist, and I disappear when you chase me.", "answer": "rainbow" },
-    "normal": { "hint": "Contains \"CI\"", "riddle": "I am a river that forgot how to run, and I carve mountains as I creep.", "answer": "glacier" },
-    "hard": { "hint": "Contains \"LA\"", "riddle": "I am a mountain's anger, and I fall in silence until I land.", "answer": "avalanche" }
-  },
-  {
-    "easy": { "hint": "Has \"HU\"", "riddle": "I clap without hands and roll without wheels, always late to the lightning.", "answer": "thunder" },
-    "normal": { "hint": "Has \"NY\"", "riddle": "I am a wound in the earth that a river spent ages carving.", "answer": "canyon" },
-    "hard": { "hint": "Contains \"NS\"", "riddle": "I am a season of rain that arrives on a turned wind.", "answer": "monsoon" }
-  },
-  {
-    "easy": { "hint": "Contains \"RN\"", "riddle": "I am a funnel with no top, and I can lift a house but not hold it.", "answer": "tornado" },
-    "normal": { "hint": "Has \"ZZ\"", "riddle": "I am snow with a temper, and I erase the world in white.", "answer": "blizzard" },
-    "hard": { "hint": "Contains \"CT\"", "riddle": "I hang from the ceiling of a cave and grow one drop at a time.", "answer": "stalactite" }
-  },
-  {
-    "easy": { "hint": "Has \"LC\"", "riddle": "I sleep for centuries, then lose my temper and paint the sky.", "answer": "volcano" },
-    "normal": { "hint": "Contains \"CK\"", "riddle": "I look like solid ground, but the more you struggle, the deeper you sink.", "answer": "quicksand" },
-    "hard": { "hint": "Contains \"NS\"", "riddle": "I am land with a hand in the sea, joined to the mainland by a wrist.", "answer": "peninsula" }
-  },
-  {
-    "easy": { "hint": "Ends with \"ON\"", "riddle": "I am a line you can walk toward forever and never reach.", "answer": "horizon" },
-    "normal": { "hint": "Has \"EY\"", "riddle": "I am a hot spring with a temper, and I spit at the sky on a schedule.", "answer": "geyser" },
-    "hard": { "hint": "Contains \"TU\"", "riddle": "I am where river meets sea, and my water is neither fresh nor salt.", "answer": "estuary" }
-  },
-  {
-    "easy": { "hint": "Has \"UM\"", "riddle": "I rise when the sky cries and rest when it smiles.", "answer": "umbrella" },
-    "normal": { "hint": "Has \"TT\"", "riddle": "I sing when I am hot and whistle when I am angry.", "answer": "kettle" },
-    "hard": { "hint": "Has \"GL\"", "riddle": "I have sand but no beach, and I measure what cannot be held.", "answer": "hourglass" }
-  },
-  {
-    "easy": { "hint": "Ends with \"OR\"", "riddle": "I show you a stranger who copies your every move.", "answer": "mirror" },
-    "normal": { "hint": "Ends with \"SS\"", "riddle": "I have a needle but never sew, and I point the way but never move.", "answer": "compass" },
-    "hard": { "hint": "Contains \"NT\"", "riddle": "I hold a flame without burning my hands, and I guide you when the sun is gone.", "answer": "lantern" }
-  },
-  {
-    "easy": { "hint": "Ends with \"LE\"", "riddle": "The more I burn, the shorter I grow.", "answer": "candle" },
-    "normal": { "hint": "Has \"DD\"", "riddle": "I have rungs and two rails, and I take you up without wings.", "answer": "ladder" },
-    "hard": { "hint": "Contains \"TH\"", "riddle": "I am a tiny cup worn on a finger, and I protect you from a sharp point.", "answer": "thimble" }
-  },
-  {
-    "easy": { "hint": "Has \"SS\"", "riddle": "I have two legs and two blades, and I only bite what you put between them.", "answer": "scissors" },
-    "normal": { "hint": "Contains \"KN\"", "riddle": "I am turned by a hand but have no face; I guard what lies beyond.", "answer": "doorknob" },
-    "hard": { "hint": "Has \"SK\"", "riddle": "I am a bundle of wire that beats eggs into foam.", "answer": "whisk" }
-  },
-  {
-    "easy": { "hint": "Has \"LL\"", "riddle": "I hold your dreams but have no brain, and I am softest when you need rest.", "answer": "pillow" },
-    "normal": { "hint": "Has \"PP\"", "riddle": "I have teeth that interlock, and I close a jacket with one pull.", "answer": "zipper" },
-    "hard": { "hint": "Contains \"WH\"", "riddle": "I have one wheel and two legs, and I carry what is too heavy for you.", "answer": "wheelbarrow" }
-  },
-  {
-    "easy": { "hint": "Has \"BR\"", "riddle": "I have many stories to tell but no mouth, and I ask for silence.", "answer": "library" },
-    "normal": { "hint": "Contains \"GH\"", "riddle": "I stand still and blink all night so others can move safely.", "answer": "lighthouse" },
-    "hard": { "hint": "Contains \"BY\"", "riddle": "I have walls but no rooms, and the more you walk me, the more lost you become.", "answer": "labyrinth" }
-  },
-  {
-    "easy": { "hint": "Ends with \"ND\"", "riddle": "I am land surrounded by water, yet I am alone.", "answer": "island" },
-    "normal": { "hint": "Contains \"TE\"", "riddle": "I am a city of stone tenants, and no one leaves.", "answer": "cemetery" },
-    "hard": { "hint": "Contains \"VA\"", "riddle": "I have a roof that opens to the sky, and I spend my nights looking up.", "answer": "observatory" }
-  },
-  {
-    "easy": { "hint": "Has \"ST\"", "riddle": "I have towers and walls but no longer any king, and my moat is dry.", "answer": "castle" },
-    "normal": { "hint": "Has \"EY\"", "riddle": "I am a field of vines that becomes wine, and I am busiest in autumn.", "answer": "vineyard" },
-    "hard": { "hint": "Has \"ZA\"", "riddle": "I am a market with no walls, a maze of stalls and shouting.", "answer": "bazaar" }
-  },
-  {
-    "easy": { "hint": "Contains \"RP\"", "riddle": "I am a place where people leave the ground and return to it, and their cars wait outside.", "answer": "airport" },
-    "normal": { "hint": "Has \"BO\"", "riddle": "I am a safe arm of the sea where ships rest.", "answer": "harbour" },
-    "hard": { "hint": "Contains \"TR\"", "riddle": "I am a building built to say no, with walls that answer arrows.", "answer": "fortress" }
-  },
-  {
-    "easy": { "hint": "Has \"EU\"", "riddle": "I keep the past behind glass and charge you to visit it.", "answer": "museum" },
-    "normal": { "hint": "Contains \"DR\"", "riddle": "I have a spire that points to heaven and windows that tell stories in light.", "answer": "cathedral" },
-    "hard": { "hint": "Contains \"GR\"", "riddle": "I am a glass house with no one living in it, and I keep summer all year.", "answer": "greenhouse" }
-  },
-  {
-    "easy": { "hint": "Has \"SK\"", "riddle": "I have a frame but no picture, and I support you from inside.", "answer": "skeleton" },
-    "normal": { "hint": "Has \"CK\"", "riddle": "I am a joint that pops when you pull me, and I sit between finger bones.", "answer": "knuckle" },
-    "hard": { "hint": "Ends with \"RY\"", "riddle": "I carry the river of life away from the heart.", "answer": "artery" }
-  },
-  {
-    "easy": { "hint": "Has \"GU\"", "riddle": "I taste everything but eat nothing, and I can wound without touching.", "answer": "tongue" },
-    "normal": { "hint": "Contains \"SH\"", "riddle": "I am a tiny curtain that blinks, and I catch dust before it reaches the eye.", "answer": "eyelash" },
-    "hard": { "hint": "Has \"TE\"", "riddle": "I am a rope that ties muscle to bone, and I snap under too much strain.", "answer": "tendon" }
-  },
-  {
-    "easy": { "hint": "Has \"LB\"", "riddle": "I am a joint you use to nudge, and I have a funny bone that isn't funny.", "answer": "elbow" },
-    "normal": { "hint": "Has \"ST\"", "riddle": "I am a cave with two entrances, and I filter the air you breathe.", "answer": "nostril" },
-    "hard": { "hint": "Contains \"TE\"", "riddle": "I am one bead in a chain that holds you upright.", "answer": "vertebra" }
-  },
-  {
-    "easy": { "hint": "Has \"PU\"", "riddle": "I am the dark center of an eye, and I grow when the light fades.", "answer": "pupil" },
-    "normal": { "hint": "Ends with \"LE\"", "riddle": "I am the part of you that meets the ground, and I wear out first.", "answer": "sole" },
-    "hard": { "hint": "Contains \"BC\"", "riddle": "I am a basket of bone that guards the bellows inside you.", "answer": "ribcage" }
-  },
-  {
-    "easy": { "hint": "Has \"LM\"", "riddle": "I have lines but no paper, and I can hold water if you cup me.", "answer": "palm" },
-    "normal": { "hint": "Has \"LP\"", "riddle": "I am the soil where hair grows, and I am hidden under it.", "answer": "scalp" },
-    "hard": { "hint": "Ends with \"IL\"", "riddle": "I am a guard at the back of the throat, and I swell when I fight.", "answer": "tonsil" }
-  },
-  {
-    "easy": { "hint": "Has \"OL\"", "riddle": "I have strings and a bow, and I sing highest in the orchestra.", "answer": "violin" },
-    "normal": { "hint": "Has \"CY\"", "riddle": "I am a metal plate that crashes when struck, and I make silence after.", "answer": "cymbal" },
-    "hard": { "hint": "Contains \"CL\"", "riddle": "I am a black tube with silver keys, and I speak in a woody voice.", "answer": "clarinet" }
-  },
-  {
-    "easy": { "hint": "Has \"TR\"", "riddle": "I am brass with a bell, and I announce the charge.", "answer": "trumpet" },
-    "normal": { "hint": "Contains \"MB\"", "riddle": "I am a ring of jingles you shake, and I keep time with a dancer's hand.", "answer": "tambourine" },
-    "hard": { "hint": "Contains \"TR\"", "riddle": "I am a pyramid that swings, and I count time without hearing it.", "answer": "metronome" }
-  },
-  {
-    "easy": { "hint": "Has \"GU\"", "riddle": "I have a neck and six strings, and I am strummed, not bowed.", "answer": "guitar" },
-    "normal": { "hint": "Contains \"XO\"", "riddle": "I am brass but not a trumpet, and I bend notes like a voice.", "answer": "saxophone" },
-    "hard": { "hint": "Contains \"CH\"", "riddle": "I am a hundred players who become one instrument.", "answer": "orchestra" }
-  },
-  {
-    "easy": { "hint": "Ends with \"NO\"", "riddle": "I have eighty-eight teeth, black and white, and I am played by pressing.", "answer": "piano" },
-    "normal": { "hint": "Has \"MS\"", "riddle": "I am a wooden club that makes a beat, and I am also eaten.", "answer": "drumstick" },
-    "hard": { "hint": "Contains \"TH\"", "riddle": "I am a song a nation stands for, and I am sung before the game.", "answer": "anthem" }
-  },
-  {
-    "easy": { "hint": "Has \"AR\"", "riddle": "I have many strings but no fingers, and angels are said to play me.", "answer": "harp" },
-    "normal": { "hint": "Ends with \"ON\"", "riddle": "I am a stick with no magic, but I command an orchestra.", "answer": "baton" },
-    "hard": { "hint": "Has \"LL\"", "riddle": "I am a song sung softly at night, and my job is to close eyes.", "answer": "lullaby" }
-  },
-  {
-    "easy": { "hint": "Has \"NN\"", "riddle": "I am played with a racket on a court, and love means nothing.", "answer": "tennis" },
-    "normal": { "hint": "Has \"CH\"", "riddle": "I turn a bent stick and a string into a flying needle.", "answer": "archery" },
-    "hard": { "hint": "Has \"DL\"", "riddle": "I am a barrier you jump over, not around, and I slow you down.", "answer": "hurdle" }
-  },
-  {
-    "easy": { "hint": "Ends with \"NG\"", "riddle": "I am a dance of fists inside a ring, and a bell decides when it starts.", "answer": "boxing" },
-    "normal": { "hint": "Has \"FE\"", "riddle": "I wear stripes but am not a zebra, and I blow a whistle to settle arguments.", "answer": "referee" },
-    "hard": { "hint": "Contains \"VE\"", "riddle": "I am a spear thrown for distance, and I once went to war.", "answer": "javelin" }
-  },
-  {
-    "easy": { "hint": "Has \"TH\"", "riddle": "I am a race named after a battlefield, and I am won by endurance.", "answer": "marathon" },
-    "normal": { "hint": "Has \"DI\"", "riddle": "I am a bowl of seats that roars when someone scores.", "answer": "stadium" },
-    "hard": { "hint": "Ends with \"CK\"", "riddle": "I am a black disc that slides on ice, and I have no legs.", "answer": "puck" }
-  },
-  {
-    "easy": { "hint": "Has \"CH\"", "riddle": "I am a war fought on a board, where the king hides and the pawns die.", "answer": "chess" },
-    "normal": { "hint": "Has \"CK\"", "riddle": "I have a handle, a frame, and a net, and my name also means a din.", "answer": "racket" },
-    "hard": { "hint": "Contains \"DM\"", "riddle": "I am a road that goes nowhere, and you walk on me indoors.", "answer": "treadmill" }
-  },
-  {
-    "easy": { "hint": "Has \"WL\"", "riddle": "I roll a heavy ball at ten standing pins, and I am played in shoes you don't own.", "answer": "bowling" },
-    "normal": { "hint": "Contains \"EP\"", "riddle": "I am the last line of defense, and I wear gloves but catch a ball, not a criminal.", "answer": "goalkeeper" },
-    "hard": { "hint": "Contains \"OD\"", "riddle": "I am a small stage for three, and the highest step is the best.", "answer": "podium" }
-  },
-  {
-    "easy": { "hint": "Has \"YB\"", "riddle": "I have many keys but open no doors, and I click when you touch me.", "answer": "keyboard" },
-    "normal": { "hint": "Has \"PI\"", "riddle": "I am the smallest dot on a screen, and I become anything when I gather with my friends.", "answer": "pixel" },
-    "hard": { "hint": "Contains \"GO\"", "riddle": "I am a recipe for a machine, written in steps rather than ingredients.", "answer": "algorithm" }
-  },
-  {
-    "easy": { "hint": "Has \"SW\"", "riddle": "I am a secret you type, and I am stronger when I am long and strange.", "answer": "password" },
-    "normal": { "hint": "Ends with \"OR\"", "riddle": "I blink on a screen and mark where words will appear.", "answer": "cursor" },
-    "hard": { "hint": "Ends with \"TE\"", "riddle": "I circle the Earth without wings and send signals from the sky.", "answer": "satellite" }
-  },
-  {
-    "easy": { "hint": "Contains \"OW\"", "riddle": "I am a window with many tabs, and I take you to places without moving.", "answer": "browser" },
-    "normal": { "hint": "Ends with \"ER\"", "riddle": "I am a silent waiter that holds data and answers when asked.", "answer": "server" },
-    "hard": { "hint": "Has \"WA\"", "riddle": "I am a wall with no bricks, and I decide which traffic may pass.", "answer": "firewall" }
-  },
-  {
-    "easy": { "hint": "Has \"BO\"", "riddle": "I am a machine with no heartbeat, built to work and sometimes to look like you.", "answer": "robot" },
-    "normal": { "hint": "Has \"NN\"", "riddle": "I am a thin finger that listens to the sky.", "answer": "antenna" },
-    "hard": { "hint": "Contains \"AB\"", "riddle": "I am a library with no shelves, and a query is my card catalog.", "answer": "database" }
-  },
-  {
-    "easy": { "hint": "Has \"DR\"", "riddle": "I fly without a pilot and buzz like an angry insect.", "answer": "drone" },
-    "normal": { "hint": "Ends with \"EM\"", "riddle": "I translate the language of wires into the language of air, and I blink while I work.", "answer": "modem" },
-    "hard": { "hint": "Contains \"HO\"", "riddle": "I am light with no body, and I can appear to stand in the room with you.", "answer": "hologram" }
-  },
-  {
-    "easy": { "hint": "Has \"PI\"", "riddle": "I wear wings on my chest and spend my days above the clouds.", "answer": "pilot" },
-    "normal": { "hint": "Contains \"RG\"", "riddle": "I work with a knife but heal, and I ask you to count backward.", "answer": "surgeon" },
-    "hard": { "hint": "Contains \"CH\"", "riddle": "I read the past in broken pots and buried walls, and I dig to find my answers.", "answer": "archaeologist" }
-  },
-  {
-    "easy": { "hint": "Has \"TI\"", "riddle": "I look into mouths all day and tell you to open wider.", "answer": "dentist" },
-    "normal": { "hint": "Has \"TA\"", "riddle": "I take measurements and cut cloth, and my work must fit you exactly.", "answer": "tailor" },
-    "hard": { "hint": "Contains \"CK\"", "riddle": "I bend metal over fire and shape it with a hammer.", "answer": "blacksmith" }
-  },
-  {
-    "easy": { "hint": "Has \"RB\"", "riddle": "I cut what grows and sweep it away, and I ask how short you want it.", "answer": "barber" },
-    "normal": { "hint": "Has \"CH\"", "riddle": "I sell cuts of meat and know every part of the animal.", "answer": "butcher" },
-    "hard": { "hint": "Contains \"RM\"", "riddle": "I count pills behind a counter and explain what the doctor meant.", "answer": "pharmacist" }
-  },
-  {
-    "easy": { "hint": "Contains \"RD\"", "riddle": "I have dirty hands and a green thumb, and I make things grow on purpose.", "answer": "gardener" },
-    "normal": { "hint": "Has \"BR\"", "riddle": "I guard books and ask for quiet, and I know where every story lives.", "answer": "librarian" },
-    "hard": { "hint": "Contains \"CH\"", "riddle": "I draw buildings that do not exist yet, and I must know how they will stand.", "answer": "architect" }
-  },
-  {
-    "easy": { "hint": "Has \"PL\"", "riddle": "I chase leaks through walls and carry a wrench, and I am welcome when water goes wrong.", "answer": "plumber" },
-    "normal": { "hint": "Contains \"NI\"", "riddle": "I clean what others dirty and carry keys to every room.", "answer": "janitor" },
-    "hard": { "hint": "Contains \"NO\"", "riddle": "I study lights that are older than the Earth, and I work while others sleep.", "answer": "astronomer" }
-  },
-  {
-    "easy": { "hint": "Ends with \"TER\"", "riddle": "I am contagious without a germ, and I can heal without medicine.", "answer": "laughter" },
-    "normal": { "hint": "Ends with \"CE\"", "riddle": "I am golden, yet I make no sound; a single word can shatter me.", "answer": "silence" },
-    "hard": { "hint": "Contains \"DO\"", "riddle": "I am a statement that bites its own tail and refuses to be true or false.", "answer": "paradox" }
-  },
-  {
-    "easy": { "hint": "Has \"MO\"", "riddle": "I can be sharp or faded, and I live in a place with no walls.", "answer": "memory" },
-    "normal": { "hint": "Has \"LO\"", "riddle": "I am a green-eyed monster that counts what others have.", "answer": "jealousy" },
-    "hard": { "hint": "Contains \"ST\"", "riddle": "I am an ache for a time that no longer exists.", "answer": "nostalgia" }
-  },
-  {
-    "easy": { "hint": "Has \"CO\"", "riddle": "I am not the absence of fear; I am what moves you anyway.", "answer": "courage" },
-    "normal": { "hint": "Has \"PA\"", "riddle": "I am the act of wearing another person's shoes without taking them.", "answer": "empathy" },
-    "hard": { "hint": "Has \"SO\"", "riddle": "I am a guest who arrives at midnight and refuses to leave.", "answer": "insomnia" }
-  },
-  {
-    "easy": { "hint": "Contains \"TI\"", "riddle": "I am a test you pass by doing nothing, and I run out when you watch the clock.", "answer": "patience" },
-    "normal": { "hint": "Has \"ST\"", "riddle": "I am the road said to be written before you walk it.", "answer": "destiny" },
-    "hard": { "hint": "Has \"RO\"", "riddle": "I am the joke that arrives after the fact, when it is too late to laugh.", "answer": "irony" }
-  },
-  {
-    "easy": { "hint": "Contains \"AV\"", "riddle": "I pull without ropes, and I keep the moon from wandering.", "answer": "gravity" },
-    "normal": { "hint": "Has \"TA\"", "riddle": "I am the whisper that says one more, just this once.", "answer": "temptation" },
-    "hard": { "hint": "Contains \"GR\"", "riddle": "I am what you do when no one is watching and no one will know.", "answer": "integrity" }
-  },
-  {
-    "easy": { "hint": "Ends with \"ET\"", "riddle": "I have a tail but no body, and I streak across the night sky.", "answer": "comet" },
-    "normal": { "hint": "Has \"BI\"", "riddle": "I am a path that never ends, and I keep the planets from falling into the sun.", "answer": "orbit" },
-    "hard": { "hint": "Has \"BU\"", "riddle": "I am a cloud in space where stars are born.", "answer": "nebula" }
-  },
-  {
-    "easy": { "hint": "Ends with \"XY\"", "riddle": "I am a city of stars held together by gravity, and the Milky Way is my address.", "answer": "galaxy" },
-    "normal": { "hint": "Contains \"RO\"", "riddle": "I am a rock that missed being a planet, and I sometimes visit Earth uninvited.", "answer": "asteroid" },
-    "hard": { "hint": "Contains \"ST\"", "riddle": "I am a picture drawn in stars, and different cultures see different animals in me.", "answer": "constellation" }
-  },
-  {
-    "easy": { "hint": "Has \"TE\"", "riddle": "I am a shooting star, but I am not a star at all.", "answer": "meteor" },
-    "normal": { "hint": "Contains \"RO\"", "riddle": "I wear a suit that is not for fashion, and I float when I leave the house.", "answer": "astronaut" },
-    "hard": { "hint": "Has \"OV\"", "riddle": "I am the brilliant death of a star, brighter than a whole galaxy for a moment.", "answer": "supernova" }
-  },
-  {
-    "easy": { "hint": "Has \"LE\"", "riddle": "I make far things near, and I am useless in fog.", "answer": "telescope" },
-    "normal": { "hint": "Has \"CR\"", "riddle": "I am a bowl in the ground made by a violent visitor.", "answer": "crater" },
-    "hard": { "hint": "Has \"SM\"", "riddle": "I am everything that exists, from atoms to galaxies, and I have no edge we know.", "answer": "cosmos" }
-  },
-  {
-    "easy": { "hint": "Contains \"RI\"", "riddle": "I am the daily promise that the dark will not last.", "answer": "sunrise" },
-    "normal": { "hint": "Contains \"RL\"", "riddle": "I am older than the Earth when I reach your eye.", "answer": "starlight" },
-    "hard": { "hint": "Has \"NE\"", "riddle": "I am a dome where the sky is projected, and it is always night inside.", "answer": "planetarium" }
-  },
-  {
-    "easy": { "hint": "Ends with \"DE\"", "riddle": "I am the moon's pull on the sea, and I come in and go out without legs.", "answer": "tide" },
-    "normal": { "hint": "Has \"BM\"", "riddle": "I travel under the water and look up at the surface through a tube.", "answer": "submarine" },
-    "hard": { "hint": "Contains \"RL\"", "riddle": "I am a circle in the water that pulls down instead of around.", "answer": "whirlpool" }
-  },
-  {
-    "easy": { "hint": "Has \"BE\"", "riddle": "I show only a tenth of myself above the water.", "answer": "iceberg" },
-    "normal": { "hint": "Has \"HO\"", "riddle": "I am a fish with a horse's head and a monkey's tail.", "answer": "seahorse" },
-    "hard": { "hint": "Contains \"TA\"", "riddle": "I am a navigator's tool that measures the stars to find the way.", "answer": "sextant" }
-  },
-  {
-    "easy": { "hint": "Has \"RA\"", "riddle": "I am a living city under the sea, built by tiny animals.", "answer": "coral" },
-    "normal": { "hint": "Has \"GO\"", "riddle": "I am shallow water held behind a reef, calm while the ocean rages.", "answer": "lagoon" },
-    "hard": { "hint": "Has \"TH\"", "riddle": "I am a measure of depth, and also a word for understanding.", "answer": "fathom" }
-  },
-  {
-    "easy": { "hint": "Contains \"UR\"", "riddle": "I am a river inside the sea, and I move without a shore.", "answer": "current" },
-    "normal": { "hint": "Has \"BU\"", "riddle": "I float in place and warn of what lies beneath, and I bob but never swim.", "answer": "buoy" },
-    "hard": { "hint": "Ends with \"NE\"", "riddle": "I am water that has drunk too much salt.", "answer": "brine" }
-  },
-  {
-    "easy": { "hint": "Has \"EE\"", "riddle": "I am a ridge under the waves, home to more life than the surface shows.", "answer": "reef" },
-    "normal": { "hint": "Contains \"PW\"", "riddle": "I am a voyage that ended suddenly, and now I rest on the bottom.", "answer": "shipwreck" },
-    "hard": { "hint": "Has \"NK\"", "riddle": "I drift with the current and feed the giants of the sea, though I am nearly invisible.", "answer": "plankton" }
-  },
-  {
-    "easy": { "hint": "Has \"TO\"", "riddle": "I hold bread until it turns brown and jumps when it is done.", "answer": "toaster" },
-    "normal": { "hint": "Has \"BL\"", "riddle": "I spin blades in a jar and turn fruit into a drink.", "answer": "blender" },
-    "hard": { "hint": "Has \"LA\"", "riddle": "I am a bowl full of holes, and I let water go but keep the pasta.", "answer": "colander" }
-  },
-  {
-    "easy": { "hint": "Has \"DG\"", "riddle": "I keep the cold inside and the warmth out, and I hum all day.", "answer": "fridge" },
-    "normal": { "hint": "Has \"PO\"", "riddle": "I have a belly, a handle, and a spout, and I sing when I am ready.", "answer": "teapot" },
-    "hard": { "hint": "Contains \"ST\"", "riddle": "I am a flat scoop that catches what the broom pushes.", "answer": "dustpan" }
-  },
-  {
-    "easy": { "hint": "Has \"OV\"", "riddle": "I am a box that bakes and roasts, and I have a window but no view.", "answer": "oven" },
-    "normal": { "hint": "Has \"SP\"", "riddle": "I am flat and flexible, and I flip what would otherwise stick and burn.", "answer": "spatula" },
-    "hard": { "hint": "Has \"UU\"", "riddle": "I am a machine that eats dust and roars while it works.", "answer": "vacuum" }
-  },
-  {
-    "easy": { "hint": "Has \"BR\"", "riddle": "I have a long handle and a head of straw, and I chase dust into a corner.", "answer": "broom" },
-    "normal": { "hint": "Has \"DL\"", "riddle": "I am a deep spoon with a long arm, and I serve soup without spilling.", "answer": "ladle" },
-    "hard": { "hint": "Has \"IR\"", "riddle": "I am heavy and hot, and I smooth what is wrinkled.", "answer": "iron" }
-  },
-  {
-    "easy": { "hint": "Ends with \"OP\"", "riddle": "I have a head of strings and a long tail, and I drink what spills.", "answer": "mop" },
-    "normal": { "hint": "Has \"GR\"", "riddle": "I have many small teeth, and I turn cheese into snow.", "answer": "grater" },
-    "hard": { "hint": "Contains \"KS\"", "riddle": "I am a spiral that bites into a bottle and pulls the plug.", "answer": "corkscrew" }
-  },
-  {
-    "easy": { "hint": "Has \"TT\"", "riddle": "I pass through a hole and hold cloth together, and I am also pushed.", "answer": "button" },
-    "normal": { "hint": "Has \"LL\"", "riddle": "I am a ring around the neck, and I can be turned up against the wind.", "answer": "collar" },
-    "hard": { "hint": "Ends with \"EM\"", "riddle": "I am the edge of a garment, folded and stitched so it will not unravel.", "answer": "hem" }
-  },
-  {
-    "easy": { "hint": "Has \"CK\"", "riddle": "I am a small bag sewn inside clothes, and I hold what you want close.", "answer": "pocket" },
-    "normal": { "hint": "Has \"TT\"", "riddle": "I keep four fingers together and the thumb alone, and I come in pairs.", "answer": "mitten" },
-    "hard": { "hint": "Has \"CU\"", "riddle": "I am the end of a sleeve, and I can be rolled or buttoned.", "answer": "cuff" }
-  },
-  {
-    "easy": { "hint": "Has \"AR\"", "riddle": "I wrap around the neck and trail behind, and I am long for a reason.", "answer": "scarf" },
-    "normal": { "hint": "Has \"PR\"", "riddle": "I cover the front of you and catch what the kitchen throws.", "answer": "apron" },
-    "hard": { "hint": "Has \"NI\"", "riddle": "I am a sturdy blue cloth that fades where you bend.", "answer": "denim" }
-  },
-  {
-    "easy": { "hint": "Has \"SA\"", "riddle": "I am open to the air and held on by straps, and I am not a shoe for snow.", "answer": "sandal" },
-    "normal": { "hint": "Has \"CK\"", "riddle": "I am a metal frame with a tongue, and I hold a strap tight.", "answer": "buckle" },
-    "hard": { "hint": "Has \"VE\"", "riddle": "I am a cloth with a soft nap, and I catch the light like a shadow.", "answer": "velvet" }
-  },
-  {
-    "easy": { "hint": "Has \"EV\"", "riddle": "I am the part of a shirt that hugs your arm, and magicians hide things in me.", "answer": "sleeve" },
-    "normal": { "hint": "Contains \"XE\"", "riddle": "I am formal wear with satin lapels, and I am not for the beach.", "answer": "tuxedo" },
-    "hard": { "hint": "Has \"SH\"", "riddle": "I am a thin rope with two ends, and I keep a shoe from falling off.", "answer": "shoelace" }
-  },
-  {
-    "easy": { "hint": "Has \"CT\"", "riddle": "I am a desert plant with a thick skin and a crown of spines.", "answer": "cactus" },
-    "normal": { "hint": "Has \"MB\"", "riddle": "I am a giant grass with hollow stems, and I grow faster than you can watch.", "answer": "bamboo" },
-    "hard": { "hint": "Contains \"NS\"", "riddle": "I am a tree kept small on purpose, and I live in a shallow dish.", "answer": "bonsai" }
-  },
-  {
-    "easy": { "hint": "Has \"FL\"", "riddle": "I turn my face to follow the sun, and my head is full of seeds.", "answer": "sunflower" },
-    "normal": { "hint": "Has \"AC\"", "riddle": "I am a small nut with a cap, and I carry an oak inside me.", "answer": "acorn" },
-    "hard": { "hint": "Contains \"GR\"", "riddle": "I stand on stilts in salt water, and I nurse young fish in my roots.", "answer": "mangrove" }
-  },
-  {
-    "easy": { "hint": "Has \"TU\"", "riddle": "I am a spring flower shaped like a cup, and I am famous in Holland.", "answer": "tulip" },
-    "normal": { "hint": "Contains \"LI\"", "riddle": "I turn from yellow to a white puff, and I travel when you blow.", "answer": "dandelion" },
-    "hard": { "hint": "Has \"ST\"", "riddle": "I am a weed with a prickly crown, and I wear purple.", "answer": "thistle" }
-  },
-  {
-    "easy": { "hint": "Ends with \"VY\"", "riddle": "I climb walls without hands, and I stay green when others sleep.", "answer": "ivy" },
-    "normal": { "hint": "Has \"CH\"", "riddle": "I am an exotic flower with a lip, and I can grow on trees.", "answer": "orchid" },
-    "hard": { "hint": "Contains \"PL\"", "riddle": "I am a young tree, still thin enough to bend.", "answer": "sapling" }
-  },
-  {
-    "easy": { "hint": "Ends with \"RN\"", "riddle": "I have feathery leaves and no flowers, and I prefer shade.", "answer": "fern" },
-    "normal": { "hint": "Has \"EE\"", "riddle": "I am a plant of the sea, and I cling to rocks when the tide pulls.", "answer": "seaweed" },
-    "hard": { "hint": "Has \"LL\"", "riddle": "I am a fine dust that makes you sneeze, and I carry a plant's future.", "answer": "pollen" }
-  },
-  {
-    "easy": { "hint": "Has \"OL\"", "riddle": "I am the color at the far end of the rainbow, and also a small spring flower.", "answer": "violet" },
-    "normal": { "hint": "Ends with \"SE\"", "riddle": "I am the color of shallow tropical water, named for a stone.", "answer": "turquoise" },
-    "hard": { "hint": "Has \"GE\"", "riddle": "I am a bright pink-purple that printers mix but light cannot make.", "answer": "magenta" }
-  },
-  {
-    "easy": { "hint": "Has \"MB\"", "riddle": "I am a warm golden color, and also ancient tree resin.", "answer": "amber" },
-    "normal": { "hint": "Has \"AV\"", "riddle": "I am a pale purple named after a fragrant herb.", "answer": "lavender" },
-    "hard": { "hint": "Contains \"CH\"", "riddle": "I am the color of burnt wood, and also the fuel that burnt.", "answer": "charcoal" }
-  },
-  {
-    "easy": { "hint": "Has \"VO\"", "riddle": "I am a creamy white named after a tusk.", "answer": "ivory" },
-    "normal": { "hint": "Has \"GO\"", "riddle": "I sit between blue and violet in the rainbow, and I was once a precious dye.", "answer": "indigo" },
-    "hard": { "hint": "Has \"NZ\"", "riddle": "I am a brownish metal color, and I represent third place.", "answer": "bronze" }
-  },
-  {
-    "easy": { "hint": "Contains \"MS\"", "riddle": "I am a deep red that leans toward blue, and I am the color of old velvet.", "answer": "crimson" },
-    "normal": { "hint": "Has \"RL\"", "riddle": "I am a bright red, and I share my name with a letter.", "answer": "scarlet" },
-    "hard": { "hint": "Has \"RO\"", "riddle": "I am a dark brownish red, and I am also what happens when you are stranded.", "answer": "maroon" }
-  },
-  {
-    "easy": { "hint": "Has \"EI\"", "riddle": "I am a pale sandy color, neither white nor brown.", "answer": "beige" },
-    "normal": { "hint": "Contains \"ER\"", "riddle": "I am a rich green named after a precious stone.", "answer": "emerald" },
-    "hard": { "hint": "Ends with \"AN\"", "riddle": "I am the greenish blue of a printer's ink, and printers count me among their primaries.", "answer": "cyan" }
-  },
-  {
-    "easy": { "hint": "Has \"GL\"", "riddle": "I am clear but solid, and I am made from sand.", "answer": "glass" },
-    "normal": { "hint": "Has \"RB\"", "riddle": "I am a stone with veins, and I am good for statues and floors.", "answer": "marble" },
-    "hard": { "hint": "Contains \"CO\"", "riddle": "I am a gray mix that pours wet and sets hard, and I build the world's bones.", "answer": "concrete" }
-  },
-  {
-    "easy": { "hint": "Has \"BB\"", "riddle": "I am elastic and waterproof, and I come from a tree's sap.", "answer": "rubber" },
-    "normal": { "hint": "Has \"PP\"", "riddle": "I am a reddish metal that carries electricity and turns green with age.", "answer": "copper" },
-    "hard": { "hint": "Contains \"CE\"", "riddle": "I am fine white ceramic, thin and delicate, and I ring when tapped.", "answer": "porcelain" }
-  },
-  {
-    "easy": { "hint": "Has \"EE\"", "riddle": "I am iron with a little carbon, strong enough to build towers.", "answer": "steel" },
-    "normal": { "hint": "Has \"EA\"", "riddle": "I am animal skin tanned into something tough.", "answer": "leather" },
-    "hard": { "hint": "Has \"PH\"", "riddle": "I am the soft gray material in a pencil, and I am also carbon.", "answer": "graphite" }
-  },
-  {
-    "easy": { "hint": "Has \"LA\"", "riddle": "I am soft earth you can shape, and I harden in a kiln.", "answer": "clay" },
-    "normal": { "hint": "Has \"LK\"", "riddle": "I am a smooth thread spun by a worm, and I am fit for royalty.", "answer": "silk" },
-    "hard": { "hint": "Has \"PL\"", "riddle": "I am a paste that dries hard, and I cover walls and set broken bones.", "answer": "plaster" }
-  },
-  {
-    "easy": { "hint": "Has \"AX\"", "riddle": "I melt when I am warm and harden when I cool, and I am in a candle.", "answer": "wax" },
-    "normal": { "hint": "Has \"OA\"", "riddle": "I am a mass of bubbles, and I cushion what would otherwise break.", "answer": "foam" },
-    "hard": { "hint": "Has \"SI\"", "riddle": "I am a sticky sap that hardens, and I am used in varnish and glue.", "answer": "resin" }
-  },
-  {
-    "easy": { "hint": "Has \"GO\"", "riddle": "I hoard gold and breathe fire, and I have wings but am not a bird.", "answer": "dragon" },
-    "normal": { "hint": "Contains \"WO\"", "riddle": "I am a man by day and a beast by the moon, and silver is my weakness.", "answer": "werewolf" },
-    "hard": { "hint": "Has \"KR\"", "riddle": "I am a sea monster with arms long enough to pull down a ship.", "answer": "kraken" }
-  },
-  {
-    "easy": { "hint": "Has \"CO\"", "riddle": "I am a horse with a horn, and I am said to be untamable.", "answer": "unicorn" },
-    "normal": { "hint": "Has \"FF\"", "riddle": "I am half eagle and half lion, and I guard treasures.", "answer": "griffin" },
-    "hard": { "hint": "Has \"LE\"", "riddle": "I am a creature of clay or stone, brought to life by a word.", "answer": "golem" }
-  },
-  {
-    "easy": { "hint": "Has \"AI\"", "riddle": "I am half woman and half fish, and sailors fear my song.", "answer": "mermaid" },
-    "normal": { "hint": "Has \"PH\"", "riddle": "I have a lion's body, a woman's face, and a riddle for every traveler.", "answer": "sphinx" },
-    "hard": { "hint": "Has \"AC\"", "riddle": "I speak in riddles from a temple, and kings come to ask me what will happen.", "answer": "oracle" }
-  },
-  {
-    "easy": { "hint": "Has \"MP\"", "riddle": "I fear garlic and daylight, and I leave two small marks.", "answer": "vampire" },
-    "normal": { "hint": "Has \"TI\"", "riddle": "I am an ancient giant who warred with the gods.", "answer": "titan" },
-    "hard": { "hint": "Has \"DU\"", "riddle": "I have snakes for hair, and one look turns you to stone.", "answer": "medusa" }
-  },
-  {
-    "easy": { "hint": "Has \"OE\"", "riddle": "I burn to ash and rise again, and I am reborn from my own fire.", "answer": "phoenix" },
-    "normal": { "hint": "Has \"GA\"", "riddle": "I am a winged horse, and I sprang from a monster's blood.", "answer": "pegasus" },
-    "hard": { "hint": "Contains \"TL\"", "riddle": "I am a lost island city beneath the sea, and no one has found me.", "answer": "atlantis" }
-  },
-  {
-    "easy": { "hint": "Has \"CA\"", "riddle": "I have twelve pages of numbers and a picture for each month.", "answer": "calendar" },
-    "normal": { "hint": "Has \"DU\"", "riddle": "I swing back and forth to keep time, and I never get anywhere.", "answer": "pendulum" },
-    "hard": { "hint": "Has \"PO\"", "riddle": "I am a long chapter of history, and I begin with a turning point.", "answer": "epoch" }
-  },
-  {
-    "easy": { "hint": "Contains \"DN\"", "riddle": "I am the seam between two days, and I am dark by definition.", "answer": "midnight" },
-    "normal": { "hint": "Has \"SU\"", "riddle": "I tell time with a shadow, but I am useless after dark.", "answer": "sundial" },
-    "hard": { "hint": "Has \"WO\"", "riddle": "I am a mechanism of gears and springs, and I move with perfect repetition.", "answer": "clockwork" }
-  },
-  {
-    "easy": { "hint": "Has \"RR\"", "riddle": "I am always coming but never here, and I am where good intentions live.", "answer": "tomorrow" },
-    "normal": { "hint": "Has \"TU\"", "riddle": "I am ten decades, and I turn a page in history.", "answer": "century" },
-    "hard": { "hint": "Has \"ST\"", "riddle": "I am the longest or shortest day, and I mark the sun's turning.", "answer": "solstice" }
-  },
-  {
-    "easy": { "hint": "Has \"LA\"", "riddle": "I wake you at a chosen hour, and I can be a warning.", "answer": "alarm" },
-    "normal": { "hint": "Has \"OM\"", "riddle": "I am a very short piece of time, and also a word for importance.", "answer": "moment" },
-    "hard": { "hint": "Has \"QU\"", "riddle": "I am the day when light and dark are equal, and I come twice a year.", "answer": "equinox" }
-  },
-  {
-    "easy": { "hint": "Contains \"ST\"", "riddle": "I am the day you can never visit again, only remember.", "answer": "yesterday" },
-    "normal": { "hint": "Has \"DL\"", "riddle": "I am a limit you cannot see, and crossing me has consequences.", "answer": "deadline" },
-    "hard": { "hint": "Contains \"TN\"", "riddle": "I am a word that counts nights instead of days, and I am half a moon.", "answer": "fortnight" }
-  }
+	{
+		"easy": { "hint": "Has \"AI\"", "riddle": "I carry my house on my back and leave a silver road behind me.", "answer": "snail" },
+		"normal": { "hint": "Has \"CT\"", "riddle": "I have eight arms and three hearts, yet I cannot hug you.", "answer": "octopus" },
+		"hard": { "hint": "Ends with \"ON\"", "riddle": "My eyes look two ways at once, and my skin lies about my mood.", "answer": "chameleon" }
+	},
+	{
+		"easy": { "hint": "Has \"GU\"", "riddle": "I wear a tuxedo to the coldest ball and swim instead of fly.", "answer": "penguin" },
+		"normal": { "hint": "Has \"DG\"", "riddle": "I am a pincushion with a nose, and I roll into a ball when afraid.", "answer": "hedgehog" },
+		"hard": { "hint": "Contains \"CU\"", "riddle": "I wear a thousand needles but cannot sew, and I warn before I strike.", "answer": "porcupine" }
+	},
+	{
+		"easy": { "hint": "Has \"PH\"", "riddle": "I leap for joy, breathe through a hole, and speak in clicks.", "answer": "dolphin" },
+		"normal": { "hint": "Ends with \"GO\"", "riddle": "I am pink because of what I eat, and I stand on one leg to keep warm.", "answer": "flamingo" },
+		"hard": { "hint": "Contains \"RP\"", "riddle": "I wear armor, carry a curved sword, and my hug is a warning.", "answer": "scorpion" }
+	},
+	{
+		"easy": { "hint": "Has \"TT\"", "riddle": "I was a caterpillar before I became a pair of painted wings.", "answer": "butterfly" },
+		"normal": { "hint": "Contains \"CO\"", "riddle": "I smile with a mouth that cannot close, and I weep without sorrow.", "answer": "crocodile" },
+		"hard": { "hint": "Has \"LL\"", "riddle": "I have no brain, no heart, and no bones, yet my touch can sting.", "answer": "jellyfish" }
+	},
+	{
+		"easy": { "hint": "Has \"QU\"", "riddle": "I bury my food and forget where, planting forests by accident.", "answer": "squirrel" },
+		"normal": { "hint": "Ends with \"SE\"", "riddle": "I carry a roof over my head and win races by never stopping.", "answer": "tortoise" },
+		"hard": { "hint": "Contains \"LA\"", "riddle": "I live in damp places and can regrow what I lose.", "answer": "salamander" }
+	},
+	{
+		"easy": { "hint": "Has \"MO\"", "riddle": "I am yellow, sour, and I make your face fold in on itself.", "answer": "lemon" },
+		"normal": { "hint": "Has \"SH\"", "riddle": "I appear overnight after rain, and some of me are deadly.", "answer": "mushroom" },
+		"hard": { "hint": "Ends with \"AR\"", "riddle": "I am sour but not a fruit, and I make pickles possible.", "answer": "vinegar" }
+	},
+	{
+		"easy": { "hint": "Has \"PC\"", "riddle": "I am corn that cannot wait, so I burst when I get hot.", "answer": "popcorn" },
+		"normal": { "hint": "Has \"TZ\"", "riddle": "I am a knot you can eat, salted and twisted.", "answer": "pretzel" },
+		"hard": { "hint": "Has \"NN\"", "riddle": "I am bark ground into powder, and I make sweet things taste warm.", "answer": "cinnamon" }
+	},
+	{
+		"easy": { "hint": "Ends with \"EY\"", "riddle": "I am made by insects, thick and golden, and I never spoil.", "answer": "honey" },
+		"normal": { "hint": "Has \"GH\"", "riddle": "I am a pile of thin ropes that you twirl, not tie.", "answer": "spaghetti" },
+		"hard": { "hint": "Contains \"CC\"", "riddle": "I am a green tree you can eat, and I grow in a tight bouquet.", "answer": "broccoli" }
+	},
+	{
+		"easy": { "hint": "Has \"CA\"", "riddle": "I am green on the inside, wear a leathery coat, and have a stone for a heart.", "answer": "avocado" },
+		"normal": { "hint": "Contains \"CO\"", "riddle": "I am made from beans that are not coffee, and I melt at the touch.", "answer": "chocolate" },
+		"hard": { "hint": "Ends with \"RD\"", "riddle": "I am a seed ground into a paste, yellow and sharp, and I can clear your sinuses.", "answer": "mustard" }
+	},
+	{
+		"easy": { "hint": "Has \"NC\"", "riddle": "I am flat, round, and flipped in the morning; syrup is my favorite coat.", "answer": "pancake" },
+		"normal": { "hint": "Contains \"CO\"", "riddle": "I am hard on the outside, white on the inside, and I carry my own drink.", "answer": "coconut" },
+		"hard": { "hint": "Has \"MP\"", "riddle": "I am a parcel of dough with a secret inside, dropped into boiling water.", "answer": "dumpling" }
+	},
+	{
+		"easy": { "hint": "Has \"NB\"", "riddle": "I need both sun and rain to exist, and I disappear when you chase me.", "answer": "rainbow" },
+		"normal": { "hint": "Contains \"CI\"", "riddle": "I am a river that forgot how to run, and I carve mountains as I creep.", "answer": "glacier" },
+		"hard": { "hint": "Contains \"LA\"", "riddle": "I am a mountain's anger, and I fall in silence until I land.", "answer": "avalanche" }
+	},
+	{
+		"easy": { "hint": "Has \"HU\"", "riddle": "I clap without hands and roll without wheels, always late to the lightning.", "answer": "thunder" },
+		"normal": { "hint": "Has \"NY\"", "riddle": "I am a wound in the earth that a river spent ages carving.", "answer": "canyon" },
+		"hard": { "hint": "Contains \"NS\"", "riddle": "I am a season of rain that arrives on a turned wind.", "answer": "monsoon" }
+	},
+	{
+		"easy": { "hint": "Contains \"RN\"", "riddle": "I am a funnel with no top, and I can lift a house but not hold it.", "answer": "tornado" },
+		"normal": { "hint": "Has \"ZZ\"", "riddle": "I am snow with a temper, and I erase the world in white.", "answer": "blizzard" },
+		"hard": { "hint": "Contains \"CT\"", "riddle": "I hang from the ceiling of a cave and grow one drop at a time.", "answer": "stalactite" }
+	},
+	{
+		"easy": { "hint": "Has \"LC\"", "riddle": "I sleep for centuries, then lose my temper and paint the sky.", "answer": "volcano" },
+		"normal": { "hint": "Contains \"CK\"", "riddle": "I look like solid ground, but the more you struggle, the deeper you sink.", "answer": "quicksand" },
+		"hard": { "hint": "Contains \"NS\"", "riddle": "I am land with a hand in the sea, joined to the mainland by a wrist.", "answer": "peninsula" }
+	},
+	{
+		"easy": { "hint": "Ends with \"ON\"", "riddle": "I am a line you can walk toward forever and never reach.", "answer": "horizon" },
+		"normal": { "hint": "Has \"EY\"", "riddle": "I am a hot spring with a temper, and I spit at the sky on a schedule.", "answer": "geyser" },
+		"hard": { "hint": "Contains \"TU\"", "riddle": "I am where river meets sea, and my water is neither fresh nor salt.", "answer": "estuary" }
+	},
+	{
+		"easy": { "hint": "Has \"UM\"", "riddle": "I rise when the sky cries and rest when it smiles.", "answer": "umbrella" },
+		"normal": { "hint": "Has \"TT\"", "riddle": "I sing when I am hot and whistle when I am angry.", "answer": "kettle" },
+		"hard": { "hint": "Has \"GL\"", "riddle": "I have sand but no beach, and I measure what cannot be held.", "answer": "hourglass" }
+	},
+	{
+		"easy": { "hint": "Ends with \"OR\"", "riddle": "I show you a stranger who copies your every move.", "answer": "mirror" },
+		"normal": { "hint": "Ends with \"SS\"", "riddle": "I have a needle but never sew, and I point the way but never move.", "answer": "compass" },
+		"hard": { "hint": "Contains \"NT\"", "riddle": "I hold a flame without burning my hands, and I guide you when the sun is gone.", "answer": "lantern" }
+	},
+	{
+		"easy": { "hint": "Ends with \"LE\"", "riddle": "The more I burn, the shorter I grow.", "answer": "candle" },
+		"normal": { "hint": "Has \"DD\"", "riddle": "I have rungs and two rails, and I take you up without wings.", "answer": "ladder" },
+		"hard": { "hint": "Contains \"TH\"", "riddle": "I am a tiny cup worn on a finger, and I protect you from a sharp point.", "answer": "thimble" }
+	},
+	{
+		"easy": { "hint": "Has \"SS\"", "riddle": "I have two legs and two blades, and I only bite what you put between them.", "answer": "scissors" },
+		"normal": { "hint": "Contains \"KN\"", "riddle": "I am turned by a hand but have no face; I guard what lies beyond.", "answer": "doorknob" },
+		"hard": { "hint": "Has \"SK\"", "riddle": "I am a bundle of wire that beats eggs into foam.", "answer": "whisk" }
+	},
+	{
+		"easy": { "hint": "Has \"LL\"", "riddle": "I hold your dreams but have no brain, and I am softest when you need rest.", "answer": "pillow" },
+		"normal": { "hint": "Has \"PP\"", "riddle": "I have teeth that interlock, and I close a jacket with one pull.", "answer": "zipper" },
+		"hard": { "hint": "Contains \"WH\"", "riddle": "I have one wheel and two legs, and I carry what is too heavy for you.", "answer": "wheelbarrow" }
+	},
+	{
+		"easy": { "hint": "Has \"BR\"", "riddle": "I have many stories to tell but no mouth, and I ask for silence.", "answer": "library" },
+		"normal": { "hint": "Contains \"GH\"", "riddle": "I stand still and blink all night so others can move safely.", "answer": "lighthouse" },
+		"hard": { "hint": "Contains \"BY\"", "riddle": "I have walls but no rooms, and the more you walk me, the more lost you become.", "answer": "labyrinth" }
+	},
+	{
+		"easy": { "hint": "Ends with \"ND\"", "riddle": "I am land surrounded by water, yet I am alone.", "answer": "island" },
+		"normal": { "hint": "Contains \"TE\"", "riddle": "I am a city of stone tenants, and no one leaves.", "answer": "cemetery" },
+		"hard": { "hint": "Contains \"VA\"", "riddle": "I have a roof that opens to the sky, and I spend my nights looking up.", "answer": "observatory" }
+	},
+	{
+		"easy": { "hint": "Has \"ST\"", "riddle": "I have towers and walls but no longer any king, and my moat is dry.", "answer": "castle" },
+		"normal": { "hint": "Has \"EY\"", "riddle": "I am a field of vines that becomes wine, and I am busiest in autumn.", "answer": "vineyard" },
+		"hard": { "hint": "Has \"ZA\"", "riddle": "I am a market with no walls, a maze of stalls and shouting.", "answer": "bazaar" }
+	},
+	{
+		"easy": { "hint": "Contains \"RP\"", "riddle": "I am a place where people leave the ground and return to it, and their cars wait outside.", "answer": "airport" },
+		"normal": { "hint": "Has \"BO\"", "riddle": "I am a safe arm of the sea where ships rest.", "answer": "harbour" },
+		"hard": { "hint": "Contains \"TR\"", "riddle": "I am a building built to say no, with walls that answer arrows.", "answer": "fortress" }
+	},
+	{
+		"easy": { "hint": "Has \"EU\"", "riddle": "I keep the past behind glass and charge you to visit it.", "answer": "museum" },
+		"normal": { "hint": "Contains \"DR\"", "riddle": "I have a spire that points to heaven and windows that tell stories in light.", "answer": "cathedral" },
+		"hard": { "hint": "Contains \"GR\"", "riddle": "I am a glass house with no one living in it, and I keep summer all year.", "answer": "greenhouse" }
+	},
+	{
+		"easy": { "hint": "Has \"SK\"", "riddle": "I have a frame but no picture, and I support you from inside.", "answer": "skeleton" },
+		"normal": { "hint": "Has \"CK\"", "riddle": "I am a joint that pops when you pull me, and I sit between finger bones.", "answer": "knuckle" },
+		"hard": { "hint": "Ends with \"RY\"", "riddle": "I carry the river of life away from the heart.", "answer": "artery" }
+	},
+	{
+		"easy": { "hint": "Has \"GU\"", "riddle": "I taste everything but eat nothing, and I can wound without touching.", "answer": "tongue" },
+		"normal": { "hint": "Contains \"SH\"", "riddle": "I am a tiny curtain that blinks, and I catch dust before it reaches the eye.", "answer": "eyelash" },
+		"hard": { "hint": "Has \"TE\"", "riddle": "I am a rope that ties muscle to bone, and I snap under too much strain.", "answer": "tendon" }
+	},
+	{
+		"easy": { "hint": "Has \"LB\"", "riddle": "I am a joint you use to nudge, and I have a funny bone that isn't funny.", "answer": "elbow" },
+		"normal": { "hint": "Has \"ST\"", "riddle": "I am a cave with two entrances, and I filter the air you breathe.", "answer": "nostril" },
+		"hard": { "hint": "Contains \"TE\"", "riddle": "I am one bead in a chain that holds you upright.", "answer": "vertebra" }
+	},
+	{
+		"easy": { "hint": "Has \"PU\"", "riddle": "I am the dark center of an eye, and I grow when the light fades.", "answer": "pupil" },
+		"normal": { "hint": "Ends with \"LE\"", "riddle": "I am the part of you that meets the ground, and I wear out first.", "answer": "sole" },
+		"hard": { "hint": "Contains \"BC\"", "riddle": "I am a basket of bone that guards the bellows inside you.", "answer": "ribcage" }
+	},
+	{
+		"easy": { "hint": "Has \"LM\"", "riddle": "I have lines but no paper, and I can hold water if you cup me.", "answer": "palm" },
+		"normal": { "hint": "Has \"LP\"", "riddle": "I am the soil where hair grows, and I am hidden under it.", "answer": "scalp" },
+		"hard": { "hint": "Ends with \"IL\"", "riddle": "I am a guard at the back of the throat, and I swell when I fight.", "answer": "tonsil" }
+	},
+	{
+		"easy": { "hint": "Has \"OL\"", "riddle": "I have strings and a bow, and I sing highest in the orchestra.", "answer": "violin" },
+		"normal": { "hint": "Has \"CY\"", "riddle": "I am a metal plate that crashes when struck, and I make silence after.", "answer": "cymbal" },
+		"hard": { "hint": "Contains \"CL\"", "riddle": "I am a black tube with silver keys, and I speak in a woody voice.", "answer": "clarinet" }
+	},
+	{
+		"easy": { "hint": "Has \"TR\"", "riddle": "I am brass with a bell, and I announce the charge.", "answer": "trumpet" },
+		"normal": { "hint": "Contains \"MB\"", "riddle": "I am a ring of jingles you shake, and I keep time with a dancer's hand.", "answer": "tambourine" },
+		"hard": { "hint": "Contains \"TR\"", "riddle": "I am a pyramid that swings, and I count time without hearing it.", "answer": "metronome" }
+	},
+	{
+		"easy": { "hint": "Has \"GU\"", "riddle": "I have a neck and six strings, and I am strummed, not bowed.", "answer": "guitar" },
+		"normal": { "hint": "Contains \"XO\"", "riddle": "I am brass but not a trumpet, and I bend notes like a voice.", "answer": "saxophone" },
+		"hard": { "hint": "Contains \"CH\"", "riddle": "I am a hundred players who become one instrument.", "answer": "orchestra" }
+	},
+	{
+		"easy": { "hint": "Ends with \"NO\"", "riddle": "I have eighty-eight teeth, black and white, and I am played by pressing.", "answer": "piano" },
+		"normal": { "hint": "Has \"MS\"", "riddle": "I am a wooden club that makes a beat, and I am also eaten.", "answer": "drumstick" },
+		"hard": { "hint": "Contains \"TH\"", "riddle": "I am a song a nation stands for, and I am sung before the game.", "answer": "anthem" }
+	},
+	{
+		"easy": { "hint": "Has \"AR\"", "riddle": "I have many strings but no fingers, and angels are said to play me.", "answer": "harp" },
+		"normal": { "hint": "Ends with \"ON\"", "riddle": "I am a stick with no magic, but I command an orchestra.", "answer": "baton" },
+		"hard": { "hint": "Has \"LL\"", "riddle": "I am a song sung softly at night, and my job is to close eyes.", "answer": "lullaby" }
+	},
+	{
+		"easy": { "hint": "Has \"NN\"", "riddle": "I am played with a racket on a court, and love means nothing.", "answer": "tennis" },
+		"normal": { "hint": "Has \"CH\"", "riddle": "I turn a bent stick and a string into a flying needle.", "answer": "archery" },
+		"hard": { "hint": "Has \"DL\"", "riddle": "I am a barrier you jump over, not around, and I slow you down.", "answer": "hurdle" }
+	},
+	{
+		"easy": { "hint": "Ends with \"NG\"", "riddle": "I am a dance of fists inside a ring, and a bell decides when it starts.", "answer": "boxing" },
+		"normal": { "hint": "Has \"FE\"", "riddle": "I wear stripes but am not a zebra, and I blow a whistle to settle arguments.", "answer": "referee" },
+		"hard": { "hint": "Contains \"VE\"", "riddle": "I am a spear thrown for distance, and I once went to war.", "answer": "javelin" }
+	},
+	{
+		"easy": { "hint": "Has \"TH\"", "riddle": "I am a race named after a battlefield, and I am won by endurance.", "answer": "marathon" },
+		"normal": { "hint": "Has \"DI\"", "riddle": "I am a bowl of seats that roars when someone scores.", "answer": "stadium" },
+		"hard": { "hint": "Ends with \"CK\"", "riddle": "I am a black disc that slides on ice, and I have no legs.", "answer": "puck" }
+	},
+	{
+		"easy": { "hint": "Has \"CH\"", "riddle": "I am a war fought on a board, where the king hides and the pawns die.", "answer": "chess" },
+		"normal": { "hint": "Has \"CK\"", "riddle": "I have a handle, a frame, and a net, and my name also means a din.", "answer": "racket" },
+		"hard": { "hint": "Contains \"DM\"", "riddle": "I am a road that goes nowhere, and you walk on me indoors.", "answer": "treadmill" }
+	},
+	{
+		"easy": { "hint": "Has \"WL\"", "riddle": "I roll a heavy ball at ten standing pins, and I am played in shoes you don't own.", "answer": "bowling" },
+		"normal": { "hint": "Contains \"EP\"", "riddle": "I am the last line of defense, and I wear gloves but catch a ball, not a criminal.", "answer": "goalkeeper" },
+		"hard": { "hint": "Contains \"OD\"", "riddle": "I am a small stage for three, and the highest step is the best.", "answer": "podium" }
+	},
+	{
+		"easy": { "hint": "Has \"YB\"", "riddle": "I have many keys but open no doors, and I click when you touch me.", "answer": "keyboard" },
+		"normal": { "hint": "Has \"PI\"", "riddle": "I am the smallest dot on a screen, and I become anything when I gather with my friends.", "answer": "pixel" },
+		"hard": { "hint": "Contains \"GO\"", "riddle": "I am a recipe for a machine, written in steps rather than ingredients.", "answer": "algorithm" }
+	},
+	{
+		"easy": { "hint": "Has \"SW\"", "riddle": "I am a secret you type, and I am stronger when I am long and strange.", "answer": "password" },
+		"normal": { "hint": "Ends with \"OR\"", "riddle": "I blink on a screen and mark where words will appear.", "answer": "cursor" },
+		"hard": { "hint": "Ends with \"TE\"", "riddle": "I circle the Earth without wings and send signals from the sky.", "answer": "satellite" }
+	},
+	{
+		"easy": { "hint": "Contains \"OW\"", "riddle": "I am a window with many tabs, and I take you to places without moving.", "answer": "browser" },
+		"normal": { "hint": "Ends with \"ER\"", "riddle": "I am a silent waiter that holds data and answers when asked.", "answer": "server" },
+		"hard": { "hint": "Has \"WA\"", "riddle": "I am a wall with no bricks, and I decide which traffic may pass.", "answer": "firewall" }
+	},
+	{
+		"easy": { "hint": "Has \"BO\"", "riddle": "I am a machine with no heartbeat, built to work and sometimes to look like you.", "answer": "robot" },
+		"normal": { "hint": "Has \"NN\"", "riddle": "I am a thin finger that listens to the sky.", "answer": "antenna" },
+		"hard": { "hint": "Contains \"AB\"", "riddle": "I am a library with no shelves, and a query is my card catalog.", "answer": "database" }
+	},
+	{
+		"easy": { "hint": "Has \"DR\"", "riddle": "I fly without a pilot and buzz like an angry insect.", "answer": "drone" },
+		"normal": { "hint": "Ends with \"EM\"", "riddle": "I translate the language of wires into the language of air, and I blink while I work.", "answer": "modem" },
+		"hard": { "hint": "Contains \"HO\"", "riddle": "I am light with no body, and I can appear to stand in the room with you.", "answer": "hologram" }
+	},
+	{
+		"easy": { "hint": "Has \"PI\"", "riddle": "I wear wings on my chest and spend my days above the clouds.", "answer": "pilot" },
+		"normal": { "hint": "Contains \"RG\"", "riddle": "I work with a knife but heal, and I ask you to count backward.", "answer": "surgeon" },
+		"hard": { "hint": "Contains \"CH\"", "riddle": "I read the past in broken pots and buried walls, and I dig to find my answers.", "answer": "archaeologist" }
+	},
+	{
+		"easy": { "hint": "Has \"TI\"", "riddle": "I look into mouths all day and tell you to open wider.", "answer": "dentist" },
+		"normal": { "hint": "Has \"TA\"", "riddle": "I take measurements and cut cloth, and my work must fit you exactly.", "answer": "tailor" },
+		"hard": { "hint": "Contains \"CK\"", "riddle": "I bend metal over fire and shape it with a hammer.", "answer": "blacksmith" }
+	},
+	{
+		"easy": { "hint": "Has \"RB\"", "riddle": "I cut what grows and sweep it away, and I ask how short you want it.", "answer": "barber" },
+		"normal": { "hint": "Has \"CH\"", "riddle": "I sell cuts of meat and know every part of the animal.", "answer": "butcher" },
+		"hard": { "hint": "Contains \"RM\"", "riddle": "I count pills behind a counter and explain what the doctor meant.", "answer": "pharmacist" }
+	},
+	{
+		"easy": { "hint": "Contains \"RD\"", "riddle": "I have dirty hands and a green thumb, and I make things grow on purpose.", "answer": "gardener" },
+		"normal": { "hint": "Has \"BR\"", "riddle": "I guard books and ask for quiet, and I know where every story lives.", "answer": "librarian" },
+		"hard": { "hint": "Contains \"CH\"", "riddle": "I draw buildings that do not exist yet, and I must know how they will stand.", "answer": "architect" }
+	},
+	{
+		"easy": { "hint": "Has \"PL\"", "riddle": "I chase leaks through walls and carry a wrench, and I am welcome when water goes wrong.", "answer": "plumber" },
+		"normal": { "hint": "Contains \"NI\"", "riddle": "I clean what others dirty and carry keys to every room.", "answer": "janitor" },
+		"hard": { "hint": "Contains \"NO\"", "riddle": "I study lights that are older than the Earth, and I work while others sleep.", "answer": "astronomer" }
+	},
+	{
+		"easy": { "hint": "Ends with \"TER\"", "riddle": "I am contagious without a germ, and I can heal without medicine.", "answer": "laughter" },
+		"normal": { "hint": "Ends with \"CE\"", "riddle": "I am golden, yet I make no sound; a single word can shatter me.", "answer": "silence" },
+		"hard": { "hint": "Contains \"DO\"", "riddle": "I am a statement that bites its own tail and refuses to be true or false.", "answer": "paradox" }
+	},
+	{
+		"easy": { "hint": "Has \"MO\"", "riddle": "I can be sharp or faded, and I live in a place with no walls.", "answer": "memory" },
+		"normal": { "hint": "Has \"LO\"", "riddle": "I am a green-eyed monster that counts what others have.", "answer": "jealousy" },
+		"hard": { "hint": "Contains \"ST\"", "riddle": "I am an ache for a time that no longer exists.", "answer": "nostalgia" }
+	},
+	{
+		"easy": { "hint": "Has \"CO\"", "riddle": "I am not the absence of fear; I am what moves you anyway.", "answer": "courage" },
+		"normal": { "hint": "Has \"PA\"", "riddle": "I am the act of wearing another person's shoes without taking them.", "answer": "empathy" },
+		"hard": { "hint": "Has \"SO\"", "riddle": "I am a guest who arrives at midnight and refuses to leave.", "answer": "insomnia" }
+	},
+	{
+		"easy": { "hint": "Contains \"TI\"", "riddle": "I am a test you pass by doing nothing, and I run out when you watch the clock.", "answer": "patience" },
+		"normal": { "hint": "Has \"ST\"", "riddle": "I am the road said to be written before you walk it.", "answer": "destiny" },
+		"hard": { "hint": "Has \"RO\"", "riddle": "I am the joke that arrives after the fact, when it is too late to laugh.", "answer": "irony" }
+	},
+	{
+		"easy": { "hint": "Contains \"AV\"", "riddle": "I pull without ropes, and I keep the moon from wandering.", "answer": "gravity" },
+		"normal": { "hint": "Has \"TA\"", "riddle": "I am the whisper that says one more, just this once.", "answer": "temptation" },
+		"hard": { "hint": "Contains \"GR\"", "riddle": "I am what you do when no one is watching and no one will know.", "answer": "integrity" }
+	},
+	{
+		"easy": { "hint": "Ends with \"ET\"", "riddle": "I have a tail but no body, and I streak across the night sky.", "answer": "comet" },
+		"normal": { "hint": "Has \"BI\"", "riddle": "I am a path that never ends, and I keep the planets from falling into the sun.", "answer": "orbit" },
+		"hard": { "hint": "Has \"BU\"", "riddle": "I am a cloud in space where stars are born.", "answer": "nebula" }
+	},
+	{
+		"easy": { "hint": "Ends with \"XY\"", "riddle": "I am a city of stars held together by gravity, and the Milky Way is my address.", "answer": "galaxy" },
+		"normal": { "hint": "Contains \"RO\"", "riddle": "I am a rock that missed being a planet, and I sometimes visit Earth uninvited.", "answer": "asteroid" },
+		"hard": { "hint": "Contains \"ST\"", "riddle": "I am a picture drawn in stars, and different cultures see different animals in me.", "answer": "constellation" }
+	},
+	{
+		"easy": { "hint": "Has \"TE\"", "riddle": "I am a shooting star, but I am not a star at all.", "answer": "meteor" },
+		"normal": { "hint": "Contains \"RO\"", "riddle": "I wear a suit that is not for fashion, and I float when I leave the house.", "answer": "astronaut" },
+		"hard": { "hint": "Has \"OV\"", "riddle": "I am the brilliant death of a star, brighter than a whole galaxy for a moment.", "answer": "supernova" }
+	},
+	{
+		"easy": { "hint": "Has \"LE\"", "riddle": "I make far things near, and I am useless in fog.", "answer": "telescope" },
+		"normal": { "hint": "Has \"CR\"", "riddle": "I am a bowl in the ground made by a violent visitor.", "answer": "crater" },
+		"hard": { "hint": "Has \"SM\"", "riddle": "I am everything that exists, from atoms to galaxies, and I have no edge we know.", "answer": "cosmos" }
+	},
+	{
+		"easy": { "hint": "Contains \"RI\"", "riddle": "I am the daily promise that the dark will not last.", "answer": "sunrise" },
+		"normal": { "hint": "Contains \"RL\"", "riddle": "I am older than the Earth when I reach your eye.", "answer": "starlight" },
+		"hard": { "hint": "Has \"NE\"", "riddle": "I am a dome where the sky is projected, and it is always night inside.", "answer": "planetarium" }
+	},
+	{
+		"easy": { "hint": "Ends with \"DE\"", "riddle": "I am the moon's pull on the sea, and I come in and go out without legs.", "answer": "tide" },
+		"normal": { "hint": "Has \"BM\"", "riddle": "I travel under the water and look up at the surface through a tube.", "answer": "submarine" },
+		"hard": { "hint": "Contains \"RL\"", "riddle": "I am a circle in the water that pulls down instead of around.", "answer": "whirlpool" }
+	},
+	{
+		"easy": { "hint": "Has \"BE\"", "riddle": "I show only a tenth of myself above the water.", "answer": "iceberg" },
+		"normal": { "hint": "Has \"HO\"", "riddle": "I am a fish with a horse's head and a monkey's tail.", "answer": "seahorse" },
+		"hard": { "hint": "Contains \"TA\"", "riddle": "I am a navigator's tool that measures the stars to find the way.", "answer": "sextant" }
+	},
+	{
+		"easy": { "hint": "Has \"RA\"", "riddle": "I am a living city under the sea, built by tiny animals.", "answer": "coral" },
+		"normal": { "hint": "Has \"GO\"", "riddle": "I am shallow water held behind a reef, calm while the ocean rages.", "answer": "lagoon" },
+		"hard": { "hint": "Has \"TH\"", "riddle": "I am a measure of depth, and also a word for understanding.", "answer": "fathom" }
+	},
+	{
+		"easy": { "hint": "Contains \"UR\"", "riddle": "I am a river inside the sea, and I move without a shore.", "answer": "current" },
+		"normal": { "hint": "Has \"BU\"", "riddle": "I float in place and warn of what lies beneath, and I bob but never swim.", "answer": "buoy" },
+		"hard": { "hint": "Ends with \"NE\"", "riddle": "I am water that has drunk too much salt.", "answer": "brine" }
+	},
+	{
+		"easy": { "hint": "Has \"EE\"", "riddle": "I am a ridge under the waves, home to more life than the surface shows.", "answer": "reef" },
+		"normal": { "hint": "Contains \"PW\"", "riddle": "I am a voyage that ended suddenly, and now I rest on the bottom.", "answer": "shipwreck" },
+		"hard": { "hint": "Has \"NK\"", "riddle": "I drift with the current and feed the giants of the sea, though I am nearly invisible.", "answer": "plankton" }
+	},
+	{
+		"easy": { "hint": "Has \"TO\"", "riddle": "I hold bread until it turns brown and jumps when it is done.", "answer": "toaster" },
+		"normal": { "hint": "Has \"BL\"", "riddle": "I spin blades in a jar and turn fruit into a drink.", "answer": "blender" },
+		"hard": { "hint": "Has \"LA\"", "riddle": "I am a bowl full of holes, and I let water go but keep the pasta.", "answer": "colander" }
+	},
+	{
+		"easy": { "hint": "Has \"DG\"", "riddle": "I keep the cold inside and the warmth out, and I hum all day.", "answer": "fridge" },
+		"normal": { "hint": "Has \"PO\"", "riddle": "I have a belly, a handle, and a spout, and I sing when I am ready.", "answer": "teapot" },
+		"hard": { "hint": "Contains \"ST\"", "riddle": "I am a flat scoop that catches what the broom pushes.", "answer": "dustpan" }
+	},
+	{
+		"easy": { "hint": "Has \"OV\"", "riddle": "I am a box that bakes and roasts, and I have a window but no view.", "answer": "oven" },
+		"normal": { "hint": "Has \"SP\"", "riddle": "I am flat and flexible, and I flip what would otherwise stick and burn.", "answer": "spatula" },
+		"hard": { "hint": "Has \"UU\"", "riddle": "I am a machine that eats dust and roars while it works.", "answer": "vacuum" }
+	},
+	{
+		"easy": { "hint": "Has \"BR\"", "riddle": "I have a long handle and a head of straw, and I chase dust into a corner.", "answer": "broom" },
+		"normal": { "hint": "Has \"DL\"", "riddle": "I am a deep spoon with a long arm, and I serve soup without spilling.", "answer": "ladle" },
+		"hard": { "hint": "Has \"IR\"", "riddle": "I am heavy and hot, and I smooth what is wrinkled.", "answer": "iron" }
+	},
+	{
+		"easy": { "hint": "Ends with \"OP\"", "riddle": "I have a head of strings and a long tail, and I drink what spills.", "answer": "mop" },
+		"normal": { "hint": "Has \"GR\"", "riddle": "I have many small teeth, and I turn cheese into snow.", "answer": "grater" },
+		"hard": { "hint": "Contains \"KS\"", "riddle": "I am a spiral that bites into a bottle and pulls the plug.", "answer": "corkscrew" }
+	},
+	{
+		"easy": { "hint": "Has \"TT\"", "riddle": "I pass through a hole and hold cloth together, and I am also pushed.", "answer": "button" },
+		"normal": { "hint": "Has \"LL\"", "riddle": "I am a ring around the neck, and I can be turned up against the wind.", "answer": "collar" },
+		"hard": { "hint": "Ends with \"EM\"", "riddle": "I am the edge of a garment, folded and stitched so it will not unravel.", "answer": "hem" }
+	},
+	{
+		"easy": { "hint": "Has \"CK\"", "riddle": "I am a small bag sewn inside clothes, and I hold what you want close.", "answer": "pocket" },
+		"normal": { "hint": "Has \"TT\"", "riddle": "I keep four fingers together and the thumb alone, and I come in pairs.", "answer": "mitten" },
+		"hard": { "hint": "Has \"CU\"", "riddle": "I am the end of a sleeve, and I can be rolled or buttoned.", "answer": "cuff" }
+	},
+	{
+		"easy": { "hint": "Has \"AR\"", "riddle": "I wrap around the neck and trail behind, and I am long for a reason.", "answer": "scarf" },
+		"normal": { "hint": "Has \"PR\"", "riddle": "I cover the front of you and catch what the kitchen throws.", "answer": "apron" },
+		"hard": { "hint": "Has \"NI\"", "riddle": "I am a sturdy blue cloth that fades where you bend.", "answer": "denim" }
+	},
+	{
+		"easy": { "hint": "Has \"SA\"", "riddle": "I am open to the air and held on by straps, and I am not a shoe for snow.", "answer": "sandal" },
+		"normal": { "hint": "Has \"CK\"", "riddle": "I am a metal frame with a tongue, and I hold a strap tight.", "answer": "buckle" },
+		"hard": { "hint": "Has \"VE\"", "riddle": "I am a cloth with a soft nap, and I catch the light like a shadow.", "answer": "velvet" }
+	},
+	{
+		"easy": { "hint": "Has \"EV\"", "riddle": "I am the part of a shirt that hugs your arm, and magicians hide things in me.", "answer": "sleeve" },
+		"normal": { "hint": "Contains \"XE\"", "riddle": "I am formal wear with satin lapels, and I am not for the beach.", "answer": "tuxedo" },
+		"hard": { "hint": "Has \"SH\"", "riddle": "I am a thin rope with two ends, and I keep a shoe from falling off.", "answer": "shoelace" }
+	},
+	{
+		"easy": { "hint": "Has \"CT\"", "riddle": "I am a desert plant with a thick skin and a crown of spines.", "answer": "cactus" },
+		"normal": { "hint": "Has \"MB\"", "riddle": "I am a giant grass with hollow stems, and I grow faster than you can watch.", "answer": "bamboo" },
+		"hard": { "hint": "Contains \"NS\"", "riddle": "I am a tree kept small on purpose, and I live in a shallow dish.", "answer": "bonsai" }
+	},
+	{
+		"easy": { "hint": "Has \"FL\"", "riddle": "I turn my face to follow the sun, and my head is full of seeds.", "answer": "sunflower" },
+		"normal": { "hint": "Has \"AC\"", "riddle": "I am a small nut with a cap, and I carry an oak inside me.", "answer": "acorn" },
+		"hard": { "hint": "Contains \"GR\"", "riddle": "I stand on stilts in salt water, and I nurse young fish in my roots.", "answer": "mangrove" }
+	},
+	{
+		"easy": { "hint": "Has \"TU\"", "riddle": "I am a spring flower shaped like a cup, and I am famous in Holland.", "answer": "tulip" },
+		"normal": { "hint": "Contains \"LI\"", "riddle": "I turn from yellow to a white puff, and I travel when you blow.", "answer": "dandelion" },
+		"hard": { "hint": "Has \"ST\"", "riddle": "I am a weed with a prickly crown, and I wear purple.", "answer": "thistle" }
+	},
+	{
+		"easy": { "hint": "Ends with \"VY\"", "riddle": "I climb walls without hands, and I stay green when others sleep.", "answer": "ivy" },
+		"normal": { "hint": "Has \"CH\"", "riddle": "I am an exotic flower with a lip, and I can grow on trees.", "answer": "orchid" },
+		"hard": { "hint": "Contains \"PL\"", "riddle": "I am a young tree, still thin enough to bend.", "answer": "sapling" }
+	},
+	{
+		"easy": { "hint": "Ends with \"RN\"", "riddle": "I have feathery leaves and no flowers, and I prefer shade.", "answer": "fern" },
+		"normal": { "hint": "Has \"EE\"", "riddle": "I am a plant of the sea, and I cling to rocks when the tide pulls.", "answer": "seaweed" },
+		"hard": { "hint": "Has \"LL\"", "riddle": "I am a fine dust that makes you sneeze, and I carry a plant's future.", "answer": "pollen" }
+	},
+	{
+		"easy": { "hint": "Has \"OL\"", "riddle": "I am the color at the far end of the rainbow, and also a small spring flower.", "answer": "violet" },
+		"normal": { "hint": "Ends with \"SE\"", "riddle": "I am the color of shallow tropical water, named for a stone.", "answer": "turquoise" },
+		"hard": { "hint": "Has \"GE\"", "riddle": "I am a bright pink-purple that printers mix but light cannot make.", "answer": "magenta" }
+	},
+	{
+		"easy": { "hint": "Has \"MB\"", "riddle": "I am a warm golden color, and also ancient tree resin.", "answer": "amber" },
+		"normal": { "hint": "Has \"AV\"", "riddle": "I am a pale purple named after a fragrant herb.", "answer": "lavender" },
+		"hard": { "hint": "Contains \"CH\"", "riddle": "I am the color of burnt wood, and also the fuel that burnt.", "answer": "charcoal" }
+	},
+	{
+		"easy": { "hint": "Has \"VO\"", "riddle": "I am a creamy white named after a tusk.", "answer": "ivory" },
+		"normal": { "hint": "Has \"GO\"", "riddle": "I sit between blue and violet in the rainbow, and I was once a precious dye.", "answer": "indigo" },
+		"hard": { "hint": "Has \"NZ\"", "riddle": "I am a brownish metal color, and I represent third place.", "answer": "bronze" }
+	},
+	{
+		"easy": { "hint": "Contains \"MS\"", "riddle": "I am a deep red that leans toward blue, and I am the color of old velvet.", "answer": "crimson" },
+		"normal": { "hint": "Has \"RL\"", "riddle": "I am a bright red, and I share my name with a letter.", "answer": "scarlet" },
+		"hard": { "hint": "Has \"RO\"", "riddle": "I am a dark brownish red, and I am also what happens when you are stranded.", "answer": "maroon" }
+	},
+	{
+		"easy": { "hint": "Has \"EI\"", "riddle": "I am a pale sandy color, neither white nor brown.", "answer": "beige" },
+		"normal": { "hint": "Contains \"ER\"", "riddle": "I am a rich green named after a precious stone.", "answer": "emerald" },
+		"hard": { "hint": "Ends with \"AN\"", "riddle": "I am the greenish blue of a printer's ink, and printers count me among their primaries.", "answer": "cyan" }
+	},
+	{
+		"easy": { "hint": "Has \"GL\"", "riddle": "I am clear but solid, and I am made from sand.", "answer": "glass" },
+		"normal": { "hint": "Has \"RB\"", "riddle": "I am a stone with veins, and I am good for statues and floors.", "answer": "marble" },
+		"hard": { "hint": "Contains \"CO\"", "riddle": "I am a gray mix that pours wet and sets hard, and I build the world's bones.", "answer": "concrete" }
+	},
+	{
+		"easy": { "hint": "Has \"BB\"", "riddle": "I am elastic and waterproof, and I come from a tree's sap.", "answer": "rubber" },
+		"normal": { "hint": "Has \"PP\"", "riddle": "I am a reddish metal that carries electricity and turns green with age.", "answer": "copper" },
+		"hard": { "hint": "Contains \"CE\"", "riddle": "I am fine white ceramic, thin and delicate, and I ring when tapped.", "answer": "porcelain" }
+	},
+	{
+		"easy": { "hint": "Has \"EE\"", "riddle": "I am iron with a little carbon, strong enough to build towers.", "answer": "steel" },
+		"normal": { "hint": "Has \"EA\"", "riddle": "I am animal skin tanned into something tough.", "answer": "leather" },
+		"hard": { "hint": "Has \"PH\"", "riddle": "I am the soft gray material in a pencil, and I am also carbon.", "answer": "graphite" }
+	},
+	{
+		"easy": { "hint": "Has \"LA\"", "riddle": "I am soft earth you can shape, and I harden in a kiln.", "answer": "clay" },
+		"normal": { "hint": "Has \"LK\"", "riddle": "I am a smooth thread spun by a worm, and I am fit for royalty.", "answer": "silk" },
+		"hard": { "hint": "Has \"PL\"", "riddle": "I am a paste that dries hard, and I cover walls and set broken bones.", "answer": "plaster" }
+	},
+	{
+		"easy": { "hint": "Has \"AX\"", "riddle": "I melt when I am warm and harden when I cool, and I am in a candle.", "answer": "wax" },
+		"normal": { "hint": "Has \"OA\"", "riddle": "I am a mass of bubbles, and I cushion what would otherwise break.", "answer": "foam" },
+		"hard": { "hint": "Has \"SI\"", "riddle": "I am a sticky sap that hardens, and I am used in varnish and glue.", "answer": "resin" }
+	},
+	{
+		"easy": { "hint": "Has \"GO\"", "riddle": "I hoard gold and breathe fire, and I have wings but am not a bird.", "answer": "dragon" },
+		"normal": { "hint": "Contains \"WO\"", "riddle": "I am a man by day and a beast by the moon, and silver is my weakness.", "answer": "werewolf" },
+		"hard": { "hint": "Has \"KR\"", "riddle": "I am a sea monster with arms long enough to pull down a ship.", "answer": "kraken" }
+	},
+	{
+		"easy": { "hint": "Has \"CO\"", "riddle": "I am a horse with a horn, and I am said to be untamable.", "answer": "unicorn" },
+		"normal": { "hint": "Has \"FF\"", "riddle": "I am half eagle and half lion, and I guard treasures.", "answer": "griffin" },
+		"hard": { "hint": "Has \"LE\"", "riddle": "I am a creature of clay or stone, brought to life by a word.", "answer": "golem" }
+	},
+	{
+		"easy": { "hint": "Has \"AI\"", "riddle": "I am half woman and half fish, and sailors fear my song.", "answer": "mermaid" },
+		"normal": { "hint": "Has \"PH\"", "riddle": "I have a lion's body, a woman's face, and a riddle for every traveler.", "answer": "sphinx" },
+		"hard": { "hint": "Has \"AC\"", "riddle": "I speak in riddles from a temple, and kings come to ask me what will happen.", "answer": "oracle" }
+	},
+	{
+		"easy": { "hint": "Has \"MP\"", "riddle": "I fear garlic and daylight, and I leave two small marks.", "answer": "vampire" },
+		"normal": { "hint": "Has \"TI\"", "riddle": "I am an ancient giant who warred with the gods.", "answer": "titan" },
+		"hard": { "hint": "Has \"DU\"", "riddle": "I have snakes for hair, and one look turns you to stone.", "answer": "medusa" }
+	},
+	{
+		"easy": { "hint": "Has \"OE\"", "riddle": "I burn to ash and rise again, and I am reborn from my own fire.", "answer": "phoenix" },
+		"normal": { "hint": "Has \"GA\"", "riddle": "I am a winged horse, and I sprang from a monster's blood.", "answer": "pegasus" },
+		"hard": { "hint": "Contains \"TL\"", "riddle": "I am a lost island city beneath the sea, and no one has found me.", "answer": "atlantis" }
+	},
+	{
+		"easy": { "hint": "Has \"CA\"", "riddle": "I have twelve pages of numbers and a picture for each month.", "answer": "calendar" },
+		"normal": { "hint": "Has \"DU\"", "riddle": "I swing back and forth to keep time, and I never get anywhere.", "answer": "pendulum" },
+		"hard": { "hint": "Has \"PO\"", "riddle": "I am a long chapter of history, and I begin with a turning point.", "answer": "epoch" }
+	},
+	{
+		"easy": { "hint": "Contains \"DN\"", "riddle": "I am the seam between two days, and I am dark by definition.", "answer": "midnight" },
+		"normal": { "hint": "Has \"SU\"", "riddle": "I tell time with a shadow, but I am useless after dark.", "answer": "sundial" },
+		"hard": { "hint": "Has \"WO\"", "riddle": "I am a mechanism of gears and springs, and I move with perfect repetition.", "answer": "clockwork" }
+	},
+	{
+		"easy": { "hint": "Has \"RR\"", "riddle": "I am always coming but never here, and I am where good intentions live.", "answer": "tomorrow" },
+		"normal": { "hint": "Has \"TU\"", "riddle": "I am ten decades, and I turn a page in history.", "answer": "century" },
+		"hard": { "hint": "Has \"ST\"", "riddle": "I am the longest or shortest day, and I mark the sun's turning.", "answer": "solstice" }
+	},
+	{
+		"easy": { "hint": "Has \"LA\"", "riddle": "I wake you at a chosen hour, and I can be a warning.", "answer": "alarm" },
+		"normal": { "hint": "Has \"OM\"", "riddle": "I am a very short piece of time, and also a word for importance.", "answer": "moment" },
+		"hard": { "hint": "Has \"QU\"", "riddle": "I am the day when light and dark are equal, and I come twice a year.", "answer": "equinox" }
+	},
+	{
+		"easy": { "hint": "Contains \"ST\"", "riddle": "I am the day you can never visit again, only remember.", "answer": "yesterday" },
+		"normal": { "hint": "Has \"DL\"", "riddle": "I am a limit you cannot see, and crossing me has consequences.", "answer": "deadline" },
+		"hard": { "hint": "Contains \"TN\"", "riddle": "I am a word that counts nights instead of days, and I am half a moon.", "answer": "fortnight" }
+	}
 ]
