@@ -2,14 +2,27 @@ import riddles from "./riddles.json" with {type: 'json'};
 
 const modes = ["easy", "normal", "hard"];
 
+const elNumber = document.getElementById("number");
+
+const discarded = [];
+
 function RiddleMeThis(shuffle = false) {
-	let current = Math.floor(Math.random() * riddles.length);
+	let current = 0;
+
+	do {
+		current = Math.floor(Math.random() * riddles.length);
+	} while (discarded.includes(current));
+
+	discarded.push(current);
+
+	console.log(discarded)
 	let riddle = riddles[current];
-	document.getElementById("number").innerText = `#${current}`;
+	elNumber.innerHTML = `#${current}`;
 
 	modes.forEach((mode, index) => {
 		const el = document.getElementById(mode);
 		if (shuffle) {
+			elNumber.classList.add("animate__flash");	
 			el.classList.remove("animate__fadeIn")
 			el.classList.add("animate__flipOutX");
 			el.classList.add("animate__flipInX");
@@ -34,3 +47,6 @@ modes.forEach(mode => {
 		el.classList.remove("animate__flipOutX");
 	});
 });
+elNumber.addEventListener('animationend', () =>{
+	elNumber.classList.remove("animate__flash");
+})
