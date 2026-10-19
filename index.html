@@ -4,16 +4,9 @@
 	<title>Riddle Me This</title>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+	<link rel="stylesheet" href="./index.css" />
 	<meta name="description" content="A riddle game" />
-
-	<!-- Google fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Rubik+Burned&family=Sixtyfour+Convergence&display=swap"
-		rel="stylesheet">
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
@@ -35,59 +28,76 @@
 	<meta name="twitter:image:alt" content="Riddle Me This cover art" />
 </head>
 
+<!-- style="linear-gradient(0deg, #44501B 0%, #44501B 100%), hsl(60deg 71.5557% 99.2037%);"  -->
+
 <body id="body"
-	class="relative max-w-screen overflow-x-hidden h-full bg-gray-900 flex flex-col items-center pt-2 p-4 gap-4 justify-center w-full">
-	<div class="flex flex-row w-full items-center justify-between">
-		<h4 id="number" class="animate__animated animate__flash font-medium opacity-60 text-white text-base">
-			#12
-		</h4>
-		<h4 id="rounde" class="animate__animated animate__flash font-medium opacity-60 text-white text-base">
-			#12
-		</h4>
-	</div>
+	class="body bg-gradient">
+	<section id="canvas" class="canvas">
+		<ul class="info-row">
+			<li></li>	
+			<li id="rounds" class="animate__animated animate__flash">
+				#12
+			</li>
+			<li id="skip">Skip</li>	
+		</ul>
 
-	<div id="easy"
-		class="transition ease-in-out animate__animated animate__fadeIn relative flex flex-col items-center justify-center rounded-xl h-full w-full bg-yellow-900">
-		<span class="absolute top-0 right-0 text-xl font-semibold text-ink-muted">
-			<i class="fas fa-cloud"></i>
-		</span>
-		<h3 id="hint" class="text-center text-base lg:text-lg font-medium tracking-widest">
-			Hint
-		</h3>
-		<h2 id="riddle" class="text-center text-xl font-bold tracking-wider">
-			Riddle
-		</h2>
-		<p id="answer" class="text-center absolute bottom-2 font-bold opacity-50 rotate-180"></p>
-	</div>
-	<div id="normal"
-		class="animate__animated animate__fadeIn relative flex flex-col items-center justify-center rounded-xl h-full w-full bg-red-900">
-		<h3 id="hint" class="text-center lg:text-lg font-medium tracking-widest">
-			Hint"
-		</h3>
-		<h2 id="riddle" class="text-center text-lg lg:text-xl font-bold tracking-wider">
-			Riddle
-		</h2>
-		<p id="answer" class="text-center absolute bottom-2 font-bold opacity-50 rotate-180">
-			answer
-		</p>
-	</div>
-	<div id="hard"
-		class="animate__animated animate__fadeIn relative flex flex-col items-center justify-center rounded-xl h-full w-full bg-purple-900">
-		<h3 id="hint" class="text-center lg:text-lg font-medium tracking-widest">
-			Hint"
-		</h3>
-		<h2 id="riddle" class="text-center text-lg lg:text-xl font-bold tracking-wider">
-			Riddle
-		</h2>
-		<p id="answer" class="text-center absolute bottom-2 font-bold opacity-50 rotate-180">
-			answer
-		</p>
-	</div>
+		<ul class="que-cards">
+			<li id="easy"
+				class="que-card transition ease-in-out animate__animated animate__fadeIn rounded-xl h-full w-full">
+				<h3 id="hint" class="text-base lg:text-lg font-medium tracking-widest">
+					Hint
+				</h3>
+				<h2 id="riddle" class="text-xl font-bold tracking-wider">
+					Riddle
+				</h2>
+				<div class="answer-cover">
+					<p id="answer"></p>
+					<p class="cover">
+						Hover to reveal
+					</p>
+				</div>
+				
+			</li>
+			<li id="normal"
+				class="que-card animate__animated animate__fadeIn relative flex flex-col items-center justify-center rounded-xl h-full w-full ">
+				<h3 id="hint" class="text-center lg:text-lg font-medium tracking-widest">
+					Hint
+				</h3>
+				<h2 id="riddle" class="text-center text-lg lg:text-xl font-bold tracking-wider">
+					Riddle
+				</h2>
+				<div class="answer-cover">
+					<p id="answer"></p>
+					<p class="cover">
+						Hover to reveal
+					</p>
+				</div>
+			</li>
+			<li id="hard"
+				class="que-card animate__animated animate__fadeIn relative flex flex-col items-center justify-center rounded-xl h-full w-full">
+				<h3 id="hint" class="text-center lg:text-lg font-medium tracking-widest">
+					Hint"
+				</h3>
+				<h2 id="riddle" class="text-center text-lg lg:text-xl font-bold tracking-wider">
+					Riddle
+				</h2>
+				<div class="answer-cover">
+					<p id="answer"></p>
+					<p class="cover">
+						Hover to reveal
+					</p>
+				</div>
+			</li>
+		</ul>
+		
+		<ul class="info-row">
+			<li id="number" class="animate__animated animate__flash">
+				#12
+			</li>
+			<li id="skip">Next</li>	
+		</ul>
 
-	<button id="shuffle"
-		class="transition duration-150 ease-in-out hover:scale-[100.5%] active:scale-100 h-40 flex items-center justify-center w-full bg-white font-medium tracking-wide">
-		Riddle Me This
-	</button>
+	</section>
 
 	<script type="module" src="./index.js"></script>
 </body>

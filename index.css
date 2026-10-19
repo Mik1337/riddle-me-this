@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* some util classes */
+.flex {
+	display: flex;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.hidden {
+	display: none;
+}
+
+.w-full {
+	width: 100%;
+}
+
+.h-full {
+	height: 100%;
+}
+
+.font-display {
+  font-family: "Rubik Burned", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Custom classes */
+.body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem;
+	max-width: 100vw;
+	overflow-x: hidden;
+	height: 100%;
+}
+
+.bg-gradient {
+	background: url("./bg-gradient.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.canvas {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	border-radius: 1.25rem;
+	background-color: hsla(0, 0%, 89%, 0.2);
+	backdrop-filter: blur(22px);
+	border: 0.2px solid rgba(255,255,255,0.2);
+	overlay: hidden;
+	box-shadow: 0px 4px 100px -7px #44501B;
+
+	padding: 1rem;
+	gap: 1rem;
+}
+
+.info-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	text-align: center;
+	list-style: none;
+}
+
+.info-row li {
+	font-family: "Rubik Burned", system-ui;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 32px;
+}
+
+.que-cards {
+	/* filter: blur(20px); */
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+
+	gap: 20px;
+}
+
+.que-cards li {
+	font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 22px;
+
+	text-align: center;
+}
+
+.que-cards #easy {
+	background-color: hsla(60, 80%, 90%, 0.5);
+}
+
+.que-cards #normal {
+	background-color: hsla(121, 80%, 90%, 0.5);
+}
+
+.que-cards #hard {
+	background-color: hsla(1, 80%, 90%, 0.5);
+}
+
+.que-card {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	border: 1px solid rgba(255,255,255,0.2);
+	border-radius: 1.25rem;
+	gap: 20px;
+}
+
+.que-card #hint {
+	font-size: 16px;
+}
+
+.que-card #riddle {
+	font-size: 22px;
+}
+
+.que-card #answer,
+.que-card .cover {
+	width: 100%;
+	position: absolute;
+	bottom: 10%;
+}
+
+.que-card .cover {
+	opacity: 0.8;
+	transition: all 80ms ease;
+}
+
+.que-card #answer {
+	filter: blur(8px);
+	transition: all 80ms ease;
+}
+
+.que-card .answer-cover {
+	width: 100%;
+	position: absolute;
+	bottom: 10%;
+	height: 20%;
+
+}
+
+.answer-cover:hover #answer {
+	filter: blur(0px);
+}
+.answer-cover:hover .cover {
+  opacity: 0;
+  pointer-events: none; 
+}

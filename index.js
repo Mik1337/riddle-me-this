@@ -5,7 +5,7 @@ let roundes = 1;
 const modes = ["easy", "normal", "hard"];
 
 const elNumber = document.getElementById("number");
-const elRounds = document.getElementById("rounde");
+const elRounds = document.getElementById("rounds");
 
 const discarded = [];
 
@@ -20,7 +20,7 @@ function RiddleMeThis(shuffle = false) {
 
 	console.log(discarded);
 	let riddle = riddles[current];
-	elNumber.innerHTML = `#${current}`;
+	elNumber.innerHTML = `Riddle #${current}`;
 
 	modes.forEach((mode, index) => {
 		const el = document.getElementById(mode);
@@ -42,12 +42,11 @@ function RiddleMeThis(shuffle = false) {
 
 RiddleMeThis();
 
-document
-	.getElementById("shuffle")
-	.addEventListener("click", () => RiddleMeThis(true));
-document
-	.getElementById("body")
-	.addEventListener("keyup", () => RiddleMeThis(true));
+// document.getElementById("shuffle").addEventListener("click", () => RiddleMeThis(true));
+document.getElementById("skip").addEventListener("click", () => RiddleMeThis(true));
+
+document.getElementById("body").addEventListener("keyup", () => RiddleMeThis(true));
+
 modes.forEach((mode) => {
 	const el = document.getElementById(mode);
 	el.addEventListener("animationend", () => {
@@ -57,6 +56,6 @@ modes.forEach((mode) => {
 elNumber.addEventListener("animationend", () => {
 	elNumber.classList.remove("animate__flash");
 });
-elRound.addEventListener("animationend", () => {
-	elRound.classList.remove("animate__flash");
+elRounds.addEventListener("animationend", () => {
+	elRounds.classList.remove("animate__flash");
 });
