@@ -90,7 +90,11 @@
 	font-family: "Rubik Burned", system-ui;
   font-weight: 400;
   font-style: normal;
-	font-size: 32px;
+	font-size: 10px;
+
+	@media (min-width:  1024px) {
+		font-size: 32px;	
+	}
 }
 
 .que-cards {
@@ -138,14 +142,30 @@
 	border: 1px solid rgba(255,255,255,0.2);
 	border-radius: 1.25rem;
 	gap: 20px;
+	padding-inline: 8px;
 }
 
 .que-card #hint {
-	font-size: 16px;
+	font-size: 8px;
+	@media (min-width:  1024px) {
+		font-size: 16px;	
+	}
 }
 
 .que-card #riddle {
-	font-size: 22px;
+	font-size: 11px;
+
+	@media (min-width:  1024px) {
+		font-size: 22px;	
+	}
+}
+
+.que-card .answer-cover {
+	font-size: 8px;
+
+	@media (min-width:  1024px) {
+		font-size: 12px;	
+	}
 }
 
 .que-card #answer,
