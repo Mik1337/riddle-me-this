@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Riddle Me This</title>
@@ -42,7 +43,7 @@
     <!-- style="linear-gradient(0deg, #44501B 0%, #44501B 100%), hsl(60deg 71.5557% 99.2037%);"  -->
 
     <body id="body" class="body bg-gradient">
-        <audio id="music" autoplay>
+        <audio id="music" autoplay loop>
              <source src="./assets/tatamusic-game-game-music-599001.mp3" type="audio/mpeg">
              <!--<source src="./assets/arpmedia-retro-arcade-game-music-577821.mp3" type="audio/mpeg">-->
         </audio>
@@ -55,63 +56,16 @@
                 <li id="skip">Skip</li>
             </ul>
 
-            <ul class="que-cards">
-                <li
-                    id="easy"
-                    class="que-card transition ease-in-out animate__animated animate__fadeIn h-full w-full"
-                >
-                    <h3 id="hint" class="rubik-mono-one-regular">Hint</h3>
-                    <h2 id="riddle" class="text-xl tracking-wider">
-                        Riddle
-                    </h2>
-                    <div class="answer-cover">
-                        <p id="answer"></p>
-                        <p class="cover">Hover to reveal</p>
-                    </div>
-                </li>
-                <li
-                    id="normal"
-                    class="que-card animate__animated animate__fadeIn relative flex flex-col items-center justify-center h-full w-full"
-                >
-                    <h3
-                        id="hint"
-                        class=""
-                    >
-                        Hint
-                    </h3>
-                    <h2
-                        id="riddle"
-                        class=""
-                    >
-                        Riddle
-                    </h2>
-                    <div class="answer-cover">
-                        <p id="answer"></p>
-                        <p class="cover">Hover to reveal</p>
-                    </div>
-                </li>
-                <li
-                    id="hard"
-                    class="que-card animate__animated animate__fadeIn flex flex-col items-center justify-center h-full w-full"
-                >
-                    <h3
-                        id="hint"
-                        class=""
-                    >
-                        Hint"
-                    </h3>
-                    <h2
-                        id="riddle"
-                        class=""
-                    >
-                        Riddle
-                    </h2>
-                    <div class="answer-cover">
-                        <p id="answer"></p>
-                        <p class="cover">Hover to reveal</p>
-                    </div>
-                </li>
-            </ul>
+            <div id="game">
+                <p id="hint" class="font-80s-fade">Hint</p>
+                <p id="riddle" class="font-display">
+                    RIDDLE
+                </p>
+                <div class="answer-cover">
+                    <p id="answer"></p>
+                    <p class="cover"></p>
+                </div>
+            </div>
 
             <ul class="info-row font-display">
                 <li id="number" class="animate__animated animate__flash">

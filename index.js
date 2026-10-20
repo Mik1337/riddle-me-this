@@ -30,19 +30,20 @@ function RiddleMeThis(shuffle = false) {
 	let riddle = riddles[current];
 	elNumber.innerHTML = `Riddle #${current}`;
 
-	modes.forEach((mode, index) => {
-		const el = document.getElementById(mode);
-		if (shuffle) {
-			elNumber.classList.add("animate__flash");
-			el.classList.remove("animate__fadeIn");
-			el.classList.add("animate__flipOutX");
-			el.classList.add("animate__flipInX");
-		}
-		el.style.setProperty("--animate-duration", `${350 * (index + 1 * 4)}ms`);
-		el.querySelector("#hint").innerText = riddle[mode].hint;
-		el.querySelector("#riddle").innerText = riddle[mode].riddle;
-		el.querySelector("#answer").innerText = riddle[mode].answer;
-	});
+  const mode = modes[Math.floor(Math.random() * modes.length)];
+
+  const elGame = document.getElementById("game");
+	if (shuffle) {
+		elNumber.classList.add("animate__flash");
+		elGame.classList.remove("animate__fadeIn");
+		elGame.classList.add("animate__flipOutX");
+		elGame.classList.add("animate__flipInX");
+	}
+	elGame.style.setProperty("--animate-duration", "3000ms");
+	elGame.querySelector("#hint").innerText = riddle[mode].hint;
+	elGame.querySelector("#riddle").innerText = riddle[mode].riddle;
+	elGame.querySelector("#answer").innerText = riddle[mode].answer;
+
 
 	elRounds.innerHTML = `Round ${roundes}`;
 	roundes++;
@@ -59,12 +60,11 @@ document.getElementById("skip").addEventListener("click", () => RiddleMeThis(tru
 
 document.getElementById("body").addEventListener("keyup", () => RiddleMeThis(true));
 
-modes.forEach((mode) => {
-	const el = document.getElementById(mode);
-	el.addEventListener("animationend", () => {
-		el.classList.remove("animate__flipOutX");
-	});
+const el = document.getElementById("game");
+el.addEventListener("animationend", () => {
+	el.classList.remove("animate__flipOutX");
 });
+
 elNumber.addEventListener("animationend", () => {
 	elNumber.classList.remove("animate__flash");
 });
