@@ -1,12 +1,20 @@
 import riddles from "./riddles.json" with { type: "json" };
 
+const music = {
+  a: new Audio("./assets/arpmedia-retro-arcade-game-music-577821.mp3"),
+  b: new Audio("./assests/tatamusic-game-game-music-599001.mp3")
+}
+
 let roundes = 1;
 
 const modes = ["easy", "normal", "hard"];
 
 const elNumber = document.getElementById("number");
 const elRounds = document.getElementById("rounds");
+const elMusic = document.getElementById("music");
 
+
+// riddles that were skipped or played
 const discarded = [];
 
 function RiddleMeThis(shuffle = false) {
@@ -40,7 +48,11 @@ function RiddleMeThis(shuffle = false) {
 	roundes++;
 }
 
-RiddleMeThis();
+window.onload = init();
+
+function init() {
+  RiddleMeThis();
+}
 
 // document.getElementById("shuffle").addEventListener("click", () => RiddleMeThis(true));
 document.getElementById("skip").addEventListener("click", () => RiddleMeThis(true));

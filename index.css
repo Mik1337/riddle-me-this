@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&family=Rubik+Burned&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -32,17 +31,35 @@
 	height: 100%;
 }
 
-.font-display {
+.font-display, .rubik-burned-regular {
   font-family: "Rubik Burned", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
-.press-start-2p-regular {
-  font-family: "Press Start 2P", system-ui;
+.rubik-800 {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-body, .rubik-mono-one-regular {
+  font-family: "Rubik Mono One", monospace;
   font-weight: 400;
   font-style: normal;
 }
+
+.font-body {
+	letter-spacing: 1px;
+}
+
+.rubik-80s-fade-regular {
+  font-family: "Rubik 80s Fade", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 /* Custom classes */
 .body {
@@ -86,17 +103,6 @@
 	list-style: none;
 }
 
-.info-row li {
-	font-family: "Rubik Burned", system-ui;
-  font-weight: 400;
-  font-style: normal;
-	font-size: 10px;
-
-	@media (min-width:  1024px) {
-		font-size: 32px;	
-	}
-}
-
 .que-cards {
 	/* filter: blur(20px); */
 	display: flex;
@@ -110,16 +116,10 @@
 }
 
 .que-cards li {
-	font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 22px;
-
 	text-align: center;
 }
 
@@ -145,18 +145,11 @@
 	padding-inline: 8px;
 }
 
-.que-card #hint {
-	font-size: 8px;
-	@media (min-width:  1024px) {
-		font-size: 16px;	
-	}
-}
-
 .que-card #riddle {
 	font-size: 11px;
 
 	@media (min-width:  1024px) {
-		font-size: 22px;	
+		font-size: 22px;
 	}
 }
 
@@ -164,7 +157,7 @@
 	font-size: 8px;
 
 	@media (min-width:  1024px) {
-		font-size: 12px;	
+		font-size: 12px;
 	}
 }
 
@@ -198,5 +191,5 @@
 }
 .answer-cover:hover .cover {
   opacity: 0;
-  pointer-events: none; 
+  pointer-events: none;
 }
