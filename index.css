@@ -1,10 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&family=Rubik+Burned&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&family=Rubik+Burned&family=Rubik+Doodle+Shadow&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 }
+
+:root {
+    --design-width: 390;
+    --max-width: 650;
+    --max-width-desktop: 1440;
+}
+
+/*@function toVw($px) {
+  @if $px >= 0 {
+    @return min(
+      calc(#{$px} / var(--design-width) * 100vw),
+      calc(#{$px} / var(--design-width) * var(--max-width) * 1px)
+    );
+  } @else {
+    @return max(
+      calc(#{$px} / var(--design-width) * 100vw),
+      calc(#{$px} / var(--design-width) * var(--max-width) * 1px)
+    );
+  }
+}*/
 
 /* some util classes */
 .flex {
@@ -31,13 +51,23 @@
 	height: 100%;
 }
 
+/* fonts */
+
 .font-display, .rubik-burned-regular {
   font-family: "Rubik Burned", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
-.rubik-800 {
+.font-display {
+    font-size: 4vw;
+
+    @media (min-width:  1024px) {
+		font-size: 2vw;
+	}
+}
+
+.font-normal, .rubik-800 {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
@@ -51,7 +81,10 @@
 }
 
 .font-body {
-	letter-spacing: 1px;
+    opacity: 0.9;
+
+    mix-blend-mode: difference;
+    letter-spacing: 1px;
 }
 
 .font-80s-fade, .rubik-80s-fade-regular {
@@ -60,6 +93,11 @@
   font-style: normal;
 }
 
+.rubik-doodle-shadow-regular {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Custom classes */
 .body {
@@ -73,7 +111,7 @@
 }
 
 .bg-gradient {
-	background: url("./bg-gradient.jpg");
+	background: url("./assets/bg-gradient.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -102,6 +140,9 @@
 	text-align: center;
 	list-style: none;
 }
+.info-row > p {
+   	cursor: pointer;
+}
 
 #game {
 	display: flex;
@@ -111,7 +152,8 @@
 	align-items: center;
 	justify-content: center;
 	/*border: 1px solid rebeccapurple;*/
-	gap: 20px;
+	gap: 5vw;
+
 }
 
 #game .easy {
@@ -126,31 +168,61 @@
 	background-color: hsla(1, 80%, 90%, 0.5);
 }
 
+#hint {
+    text-align: center;
+    text-wrap: balance;
+	font-size: 4vw;
+	color: hsla(90, 100%, 40%, 1);
+
+	text-shadow: 0vw 0.4vw 0.5vw hsla(90, 100%, 40%, 1);
+	letter-spacing: 2%;
+	mix-blend-mode: overlay;
+	/*padding-inline: 2vw;*/
+
+	@media (min-width:  1024px) {
+    	text-shadow: 0vw 0.4vw 0.5vw hsla(90, 100%, 40%, 1);
+		font-size: 2vw;
+		line-height: 1px;
+	}
+}
+
 #riddle {
     text-align: center;
     text-wrap: balance;
 	font-size: 5vw;
+	color: hsla(42, 100%, 49%, 1);
 
+
+	text-shadow: 2vw 2vw 2vw hsla(73, 100%, 40%, 0.5);
+	padding-inline: 2vw;
 	@media (min-width:  1024px) {
-		font-size: 2vw;
+    	text-shadow: 0.5vw 0.4vw 0.5vw hsla(73, 100%, 40%, 0.5);
+		font-size: 4vw;
 	}
-}
-
-#answer, .cover {
-	width: 100%;
-	position: absolute;
-	bottom: 10%;
 }
 
 .cover {
-	opacity: 0.8;
+   	width: 100%;
+	position: absolute;
+	bottom: 10%;
+
+	opacity: 0.9;
 	transition: all 80ms ease;
+
+	font-size: 4vw;
+
 	&::after {
 	    content: "Tap to reveal";
+        color: whitesmoke;
+       	text-shadow: 0vw 0.4vw 0.5vw hsla(90, 100%, 40%, 1);
 	}
+
 	@media (min-width:  1024px) {
+		font-size: 2vw;
     	&::after {
     	    content: "Hover to reveal";
+            color: whitesmoke;
+           	text-shadow: 0vw 0.4vw 0.5vw hsla(90, 100%, 40%, 1);
     	}
 	}
 }
@@ -158,6 +230,15 @@
 #answer {
 	filter: blur(8px);
 	transition: all 80ms ease;
+	font-size: 4vw;
+
+    color: hsla(0, 0%, 0%, 1);
+    opacity: 0.90;
+   	text-shadow: 0vw 0.4vw 0.5vw hsla(90, 100%, 40%, 1);
+
+	@media (min-width:  1024px) {
+		font-size: 2vw;
+	}
 }
 
 .answer-cover {
@@ -166,18 +247,15 @@
 	bottom: 10%;
 	/*height: 50%;*/
 	text-align: center;
-	font-size: 8px;
-	@media (min-width:  1024px) {
-		font-size: 12px;
-	}
 }
 
 .answer-cover:hover #answer {
 	filter: blur(0px);
 	cursor: none;
-
-
+    color: hsla(0, 100%, 100%, 1);
+    scale: 150%;
 }
+
 .answer-cover:hover .cover {
   opacity: 0;
   pointer-events: none;

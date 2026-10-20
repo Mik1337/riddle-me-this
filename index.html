@@ -48,31 +48,31 @@
              <!--<source src="./assets/arpmedia-retro-arcade-game-music-577821.mp3" type="audio/mpeg">-->
         </audio>
         <section id="canvas" class="canvas">
-            <ul class="info-row font-display">
-                <li></li>
-                <li id="rounds" class="animate__animated animate__flash">
+            <div class="info-row font-display">
+                <p id="back" class="">Back</p>
+                <p id="rounds" class="animate__animated animate__flash">
                     #12
-                </li>
-                <li id="skip">Skip</li>
-            </ul>
+                </p>
+                <p id="skip" class="">Skip</p>
+            </div>
 
-            <div id="game">
-                <p id="hint" class="font-80s-fade">Hint</p>
-                <p id="riddle" class="font-display">
+            <div id="game" class="animate__animated animate__backInDown">
+                <p id="hint" class="rubik-doodle-shadow-regular">Hint</p>
+                <p id="riddle" class="font-body">
                     RIDDLE
                 </p>
-                <div class="answer-cover">
-                    <p id="answer"></p>
-                    <p class="cover"></p>
+                <div class="answer-cover ">
+                    <p id="answer" class="font-normal"></p>
+                    <p class="cover font-body"></p>
                 </div>
             </div>
 
-            <ul class="info-row font-display">
-                <li id="number" class="animate__animated animate__flash">
+            <div class="info-row font-display">
+                <p id="number" class="animate__animated animate__flash">
                     #12
-                </li>
-                <li id="skip">Next</li>
-            </ul>
+                </p>
+                <p id="skip">Next</p>
+            </div>
         </section>
 
         <script type="module" src="./index.js"></script>
