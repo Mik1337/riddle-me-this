@@ -208,32 +208,28 @@
 
 }
 
-#game .easy {
-	background-color: hsla(60, 80%, 90%, 0.5);
+.easy {
+    color: hsla(90, 100%, 40%, 1);
 }
 
-#game .normal {
-	background-color: hsla(121, 80%, 90%, 0.5);
+.normal {
+    color: hsla(45, 100%, 40%, 1);
 }
 
-#game .hard {
-	background-color: hsla(1, 80%, 90%, 0.5);
+.hard {
+	color: hsla(9, 100%, 40%, 1);
 }
 
 #hint {
     text-align: center;
     text-wrap: balance;
 	font-size: 4vw;
-	color: hsla(90, 100%, 40%, 1);
 
-	text-shadow: 0vw 0.4vw 0.5vw hsla(90, 100%, 40%, 1);
 	letter-spacing: 2%;
 	mix-blend-mode: overlay;
-	/*padding-inline: 2vw;*/
 
 	@media (min-width:  1024px) {
-    	text-shadow: 0vw 0.4vw 0.5vw hsla(90, 100%, 40%, 1);
-		font-size: 2vw;
+		font-size: 3vw;
 		line-height: 1px;
 	}
 }
@@ -315,4 +311,27 @@
 .answer-cover:hover .cover {
   opacity: 0;
   pointer-events: none;
+}
+
+/* wobble text */
+
+@keyframes wobb {
+  0%, 100%   {
+      transform: translateY(0px) translateX(0px)
+  }
+  25%  {
+      transform: translateY(-1px) translateX(0.25px)
+  }
+  75%  {
+      transform: translateY(1px) translateX(0.25px)
+  }
+}
+
+.wobble span {
+  animation-name: wobb;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 400ms;
+  display: inline-block;
+  transform: translateY(0px);
 }

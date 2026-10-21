@@ -55,6 +55,7 @@ function RiddleMeThis({ next = false, back = false, current = -1 }) {
 	let riddle = riddles[current];
 	elNumber.innerHTML = `Riddle #${current}`;
 
+	// elGame.querySelector("#hint").classList.remove('easy', 'hard', 'normal');
   const mode = modes[rng(modes.length)];
 
 	if (next) {
@@ -66,7 +67,8 @@ function RiddleMeThis({ next = false, back = false, current = -1 }) {
 		elGame.classList.add("animate__backInDown");
 	}
 	elGame.style.setProperty("--animate-duration", "1200ms");
-	elGame.querySelector("#hint").innerText = riddle[mode].hint;
+  elGame.querySelector("#hint").innerText = riddle[mode].hint;
+  elGame.querySelector("#hint").classList.add(mode);
 	elGame.querySelector("#riddle").innerText = riddle[mode].riddle;
 	elGame.querySelector("#answer").innerText = riddle[mode].answer;
 
@@ -112,4 +114,23 @@ elNumber.addEventListener("animationend", () => {
 });
 elRounds.addEventListener("animationend", () => {
 	elRounds.classList.remove("animate__backInDown");
+});
+
+
+// wobble innerText
+const wobblers = document.querySelectorAll('.wobble');
+
+// Iterate through each "wobble"
+wobblers.forEach(el => {
+  // Get the text content of the element
+  let text = el.textContent;
+  // Create an array of separate letters
+  text = text.split("");
+  // Iterate through each letter and give it its own span element and individual animation delay offset
+  const textCode = text.map((x, idx) => {
+    let delay = (idx + 1) * 120;
+    return `<span style="animation-delay: ${delay}ms">${x}</span>`;
+  })
+  // replace the element's html with our dynamically created html
+  el.innerHTML = textCode.join(" ");
 });
