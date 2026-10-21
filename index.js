@@ -2,13 +2,20 @@ import riddles from "./riddles.json" with { type: "json" };
 
 const music = {
   a: new Audio("./assets/arpmedia-retro-arcade-game-music-577821.mp3"),
-  b: new Audio("./assests/tatamusic-game-game-music-599001.mp3")
+  b: new Audio("./assets/tatamusic-game-game-music-599001.mp3"),
+  c: new Audio("./assets/miksmusic.mp3")
 }
 
-let roundes = 1;
+let rounds = 1;
+
+const elMenu = document.getElementById("menu");
+const elJustRiddles = document.getElementById("just-riddles");
+
+const rng = (size) => Math.floor(Math.random() * size);
 
 const modes = ["easy", "normal", "hard"];
 
+const elCanvas = document.getElementById("canvas");
 const elNumber = document.getElementById("number");
 const elRounds = document.getElementById("rounds");
 const elMusic = document.getElementById("music");
@@ -16,42 +23,39 @@ const elGame = document.getElementById("game");
 const elBack = document.getElementById("back");
 const elSkip = document.getElementById("skip");
 const elBody = document.getElementById("body");
+const urlParams = new URLSearchParams(window.location.search);
 
 // riddles that were skipped or played
 const discarded = [];
 
-// @TODO: Fix back button, maybe put it in url so it's easier ?
-function RiddleMeThis({ next = false, back = false }) {
-  const urlParams = new URLSearchParams(window.location.search);
-  let current = -1;
+function RiddleMeThis({ next = false, back = false, current = -1 }) {
+  elBody.addEventListener("keyup", () => RiddleMeThis({ next: true }));
 
   if (back && discarded.length > 1) {
-    current = discarded.pop();
-  } else if (urlParams.length != 0 && roundes == 1) {
+    discarded.pop();
+    current = discarded[discarded.length - 1];
+  }
+  else if (back) {
+    return;
+  }
+  else if (urlParams.size != 0 && rounds == 1) {
     current = Number(urlParams.get("riddle"));
     discarded.push(current);
-  } else if (!back && next) {
+  }
+  else if (!back && next) {
     do {
-  		current = Math.floor(Math.random() * riddles.length);
+  		current = rng(riddles.length);
   	} while (discarded.includes(current));
     discarded.push(current);
-  } else {
-    current = discarded[0];
   }
-
- //  if (urlParams.length != 0 && roundes == 1) {
- //    current = Number(urlParams.get("riddle"));
- //    discarded.push(current);
- //  } else if (back && discarded.length > 1) {
- //    current = discarded.pop()
- //  } else if (!back && next) {
- //
-	// }
+  else {
+    discarded.push(current);
+  }
 
 	let riddle = riddles[current];
 	elNumber.innerHTML = `Riddle #${current}`;
 
-  const mode = modes[Math.floor(Math.random() * modes.length)];
+  const mode = modes[rng(modes.length)];
 
 	if (next) {
 		elNumber.classList.add("animate__flash");
@@ -66,10 +70,10 @@ function RiddleMeThis({ next = false, back = false }) {
 	elGame.querySelector("#riddle").innerText = riddle[mode].riddle;
 	elGame.querySelector("#answer").innerText = riddle[mode].answer;
 
-  elRounds.innerHTML = `Round ${roundes}`;
+  elRounds.innerHTML = `Round ${rounds}`;
 
   if (!back) {
-    roundes++;
+    rounds++;
   }
 
   urlParams.set('riddle', current);
@@ -79,17 +83,25 @@ function RiddleMeThis({ next = false, back = false }) {
 window.onload = init();
 
 function init() {
-  RiddleMeThis({});
+  if (urlParams.size == 0) {
+    elCanvas.classList.add("hidden");
+    elJustRiddles.addEventListener("click", () => {
+      elMenu.classList.add("hidden");
+      elCanvas.classList.remove("hidden");
+      RiddleMeThis({current: rng(riddles.length)})
+    })
+  } else {
+    elMenu.classList.add("hidden");
+    elCanvas.classList.remove("hidden");
+    RiddleMeThis({});
+  }
 }
 
 document.getElementById("next").addEventListener("click", () => RiddleMeThis({ next: true }));
 elSkip.addEventListener("click", () => RiddleMeThis({ next: true }));
 
-if (discarded.length > 0) {
-  elBack.addEventListener("click", () => RiddleMeThis({ back: true }));
-}
+elBack.addEventListener("click", () => RiddleMeThis({ back: true }));
 
-elBody.addEventListener("keyup", () => RiddleMeThis({ next: true }));
 
 // remove animation classes so new animation can begin
 elGame.addEventListener("animationend", () => {

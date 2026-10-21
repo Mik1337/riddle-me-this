@@ -44,10 +44,42 @@
 
     <body id="body" class="body bg-gradient">
         <audio id="music" autoplay loop>
-             <source src="./assets/tatamusic-game-game-music-599001.mp3" type="audio/mpeg">
-             <!--<source src="./assets/arpmedia-retro-arcade-game-music-577821.mp3" type="audio/mpeg">-->
+            <!--<source src="./assets/tatamusic-game-game-music-599001.mp3" type="audio/mpeg">-->
+            <source src="./assets/arpmedia-retro-arcade-game-music-577821.mp3" type="audio/mpeg">
+            <!--<source src="./assets/miksmusic.mp3" type="audio/mpeg">-->
         </audio>
-        <section id="canvas" class="canvas">
+        <section id="menu" class="glass-bg">
+            <div class="menu--options-container">
+                <img src="og_square.png" width="700" height="auto" />
+                <div class="menu--items">
+                    <span class="menu--option-container">
+                        <p class="font-body">Menu</p>
+                        <p class="help-text"></p>
+                    </span>
+                    <span class="menu--option-container">
+                        <p class="font-body" id="just-riddles">Just Riddles</p>
+                        <p class="help-text"></p>
+                    </span>
+                    <span class="menu--option-container">
+                        <p class="font-body">Create Room</p>
+                        <p class="help-text"></p>
+                    </span>
+                    <span class="menu--option-container">
+                        <p class="font-body">Credits</p>
+                        <p class="help-text"></p>
+                    </span>
+                    <span class="menu--option-container">
+                        <p class="font-body">All Riddles</p>
+                        <p class="help-text"></p>
+                    </span>
+                    <span class="menu--option-container">
+                        <p class="font-body">Music</p>
+                        <p class="font-body">Sound</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section id="canvas" class="glass-bg">
             <div class="info-row font-display">
                 <p id="back" class="">Back</p>
                 <p id="rounds" class="animate__animated animate__flash">
