@@ -169,6 +169,11 @@
     display: none;
 }
 
+.menu--option-container .image {
+    width: 2vw;
+    display: none;
+}
+
 .menu--option-container p {
     text-align: center;
     text-wrap: balance;
@@ -179,10 +184,9 @@
 	padding-inline: 2vw;
 	@media (min-width:  1024px) {
       	text-shadow: 0.5vw 0.4vw 0.5vw hsla(73, 100%, 40%, 0.5);
-		font-size: 4vw;
+		font-size: 2vw;
 	}
 }
-
 
 .info-row {
 	display: flex;
