@@ -21,25 +21,39 @@ const elBody = document.getElementById("body");
 const discarded = [];
 
 // @TODO: Fix back button, maybe put it in url so it's easier ?
-function RiddleMeThis({shuffle = false, back = false}) {
-	let current = 0;
+function RiddleMeThis({ next = false, back = false }) {
+  const urlParams = new URLSearchParams(window.location.search);
+  let current = -1;
 
-  if (back && discarded.length > 0) {
-    current = discarded.pop()
-  } else {
+  if (back && discarded.length > 1) {
+    current = discarded.pop();
+  } else if (urlParams.length != 0 && roundes == 1) {
+    current = Number(urlParams.get("riddle"));
+    discarded.push(current);
+  } else if (!back && next) {
     do {
   		current = Math.floor(Math.random() * riddles.length);
   	} while (discarded.includes(current));
     discarded.push(current);
-	}
+  } else {
+    current = discarded[0];
+  }
 
-	// console.log(discarded);
+ //  if (urlParams.length != 0 && roundes == 1) {
+ //    current = Number(urlParams.get("riddle"));
+ //    discarded.push(current);
+ //  } else if (back && discarded.length > 1) {
+ //    current = discarded.pop()
+ //  } else if (!back && next) {
+ //
+	// }
+
 	let riddle = riddles[current];
 	elNumber.innerHTML = `Riddle #${current}`;
 
   const mode = modes[Math.floor(Math.random() * modes.length)];
 
-	if (shuffle) {
+	if (next) {
 		elNumber.classList.add("animate__flash");
 		elGame.classList.add("animate__backOutDown");
   }
@@ -57,6 +71,9 @@ function RiddleMeThis({shuffle = false, back = false}) {
   if (!back) {
     roundes++;
   }
+
+  urlParams.set('riddle', current);
+  history.replaceState({}, null, '?'+urlParams);
 }
 
 window.onload = init();
@@ -65,14 +82,14 @@ function init() {
   RiddleMeThis({});
 }
 
-// document.getElementById("shuffle").addEventListener("click", () => RiddleMeThis(true));
-elSkip.addEventListener("click", () => RiddleMeThis({ shuffle: true }));
+document.getElementById("next").addEventListener("click", () => RiddleMeThis({ next: true }));
+elSkip.addEventListener("click", () => RiddleMeThis({ next: true }));
 
 if (discarded.length > 0) {
   elBack.addEventListener("click", () => RiddleMeThis({ back: true }));
 }
 
-elBody.addEventListener("keyup", () => RiddleMeThis({ shuffle: true }));
+elBody.addEventListener("keyup", () => RiddleMeThis({ next: true }));
 
 // remove animation classes so new animation can begin
 elGame.addEventListener("animationend", () => {
